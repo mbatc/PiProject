@@ -1,0 +1,2546 @@
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 13:06:52 1970] --
+[10:00:03][0x2cecc] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[14:25:52][0x2cea0] 	| (5)INFO 	|: Entered CSystem::init()
+[17:57:04][0x2cea0] 	| (5)INFO 	|: Initialising System Class
+[17:57:04][0x2cea0] 	| (5)INFO 	|: CSystem::init() returned
+[12:31:20][0x2cea0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2cea0] 	| (5)INFO 	|: Entered CSystem::_main()
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 13:06:52 1970] --
+[10:00:03][0x2cecc] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[14:25:52][0x2cea0] 	| (5)INFO 	|: Entered CSystem::init()
+[18:41:52][0x2cea0] 	| (5)INFO 	|: Initialising System Class
+[18:41:52][0x2cea0] 	| (5)INFO 	|: CSystem::init() returned
+[12:31:20][0x2cea0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2cea0] 	| (5)INFO 	|: Entered CSystem::_main()
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 13:06:52 1970] --
+[10:00:03][0x2cecc] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[14:25:52][0x2cea0] 	| (5)INFO 	|: Entered CSystem::init()
+[05:58:08][0x2cea0] 	| (5)INFO 	|: Initialising System Class
+[05:58:08][0x2cea0] 	| (5)INFO 	|: CSystem::init() returned
+[12:31:20][0x2cea0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2cea0] 	| (5)INFO 	|: Entered CSystem::_main()
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 13:06:52 1970] --
+[10:00:03][0x2cecc] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[14:25:52][0x2cea0] 	| (5)INFO 	|: Entered CSystem::init()
+[15:10:40][0x2cea0] 	| (5)INFO 	|: Initialising System Class
+[15:10:40][0x2cea0] 	| (5)INFO 	|: CSystem::init() returned
+[12:31:20][0x2cea0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2cea0] 	| (5)INFO 	|: Entered CSystem::_main()
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 13:06:52 1970] --
+[10:00:03][0x2cecc] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[14:25:52][0x2cea0] 	| (5)INFO 	|: Entered CSystem::init()
+[20:58:24][0x2cea0] 	| (5)INFO 	|: Initialising System Class
+[20:58:24][0x2cea0] 	| (5)INFO 	|: CSystem::init() returned
+[12:31:20][0x2cea0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2cea0] 	| (5)INFO 	|: Entered CSystem::_main()
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 13:06:52 1970] --
+[10:00:03][0x2cecc] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[14:25:52][0x2cea0] 	| (5)INFO 	|: Entered CSystem::init()
+[07:55:28][0x2cea0] 	| (5)INFO 	|: Initialising System Class
+[07:55:28][0x2cea0] 	| (5)INFO 	|: CSystem::init() returned
+[12:31:20][0x2cea0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2cea0] 	| (5)INFO 	|: Entered CSystem::_main()
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 13:22:56 1970] --
+[10:00:03][0x2d290] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[21:26:00][0x2d254] 	| (5)INFO 	|: Entered CSystem::init()
+[18:37:36][0x2d254] 	| (5)INFO 	|: Initialising System Class
+[18:37:36][0x2d254] 	| (5)INFO 	|: CSystem::init() returned
+[00:09:28][0x2d254] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2d254] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2d254] 	| (5)INFO 	|: Entered CSystem::_main()
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+[03:15:08][0x2d268] 	| (5)INFO 	|: Getting User Input: nice
+[10:00:00][0x2d254] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: nice 
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+[03:15:08][0x2d268] 	| (5)INFO 	|: Getting User Input: nice
+[10:00:00][0x2d254] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: nice 
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+[03:15:08][0x2d268] 	| (5)INFO 	|: Getting User Input: gpio
+[10:00:00][0x2d254] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[00:09:28][0x2d254] 	| (5)INFO 	|: Program State changed: gpio
+[18:25:36][0x2d254] 	| (5)INFO 	|: CSystem::_main() returned 0
+[18:37:36][0x2d254] 	| (5)INFO 	|: Entered CSystem::_main()
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+[03:15:08][0x2d268] 	| (5)INFO 	|: Getting User Input: help
+[10:00:00][0x2d254] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: help 
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+[03:15:08][0x2d268] 	| (5)INFO 	|: Getting User Input: help
+[10:00:00][0x2d254] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: help 
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+[03:15:08][0x2d268] 	| (5)INFO 	|: Getting User Input: add
+[10:00:00][0x2d254] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: add	- Add a handle for the specified GPIO-Pin
+		e.g. add:15
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+[03:15:08][0x2d268] 	| (5)INFO 	|: Getting User Input: add:2
+[18:30:16][0x2d254] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[10:02:04][0x14cb1a8] 	| (5)INFO 	|: Input Class Initialised
+[15:57:40][0x14cb1ac] 	| (5)INFO 	|: Output class initialised
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2d268] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2d254] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:  
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+[03:15:08][0x2d268] 	| (5)INFO 	|: Getting User Input: em:2
+[18:27:52][0x2d254] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: em 2 
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+[03:15:08][0x2d268] 	| (5)INFO 	|: Getting User Input: s
+[10:00:00][0x2d254] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: s 
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+[03:15:08][0x2d268] 	| (5)INFO 	|: Getting User Input: hi
+[10:00:00][0x2d254] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: hi 
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2d268] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2d254] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:  
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+[03:15:08][0x2d268] 	| (5)INFO 	|: Getting User Input: em:2
+[18:27:52][0x2d254] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: em 2 
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+[03:15:08][0x2d268] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2d254] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+[03:15:08][0x2d268] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2d254] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+[03:15:08][0x2d268] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2d254] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+[03:15:08][0x2d268] 	| (5)INFO 	|: Getting User Input: hi
+[10:00:00][0x2d254] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: hi 
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+[03:15:08][0x2d268] 	| (5)INFO 	|: Getting User Input: nice
+[10:00:00][0x2d254] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: nice 
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+[03:15:08][0x2d268] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2d254] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[13:19:48][0x2d26c] 	| (5)INFO 	|: Output to console: 	%s >
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 13:23:16 1970] --
+[10:00:03][0x2d2a4] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[20:30:32][0x2d268] 	| (5)INFO 	|: Entered CSystem::init()
+[17:12:16][0x2d268] 	| (5)INFO 	|: Initialising System Class
+[17:12:16][0x2d268] 	| (5)INFO 	|: CSystem::init() returned
+[23:14:00][0x2d268] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2d268] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2d268] 	| (5)INFO 	|: Entered CSystem::_main()
+[12:24:20][0x2d280] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[12:24:20][0x2d280] 	| (5)INFO 	|: Output to console: 	%s >
+[11:47:08][0x2d27c] 	| (5)INFO 	|: Getting User Input: help
+[10:00:00][0x2d268] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: help 
+[12:24:20][0x2d280] 	| (5)INFO 	|: Output to console: 	%s >
+[11:47:08][0x2d27c] 	| (5)INFO 	|: Getting User Input: help
+[10:00:00][0x2d268] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: help 
+[12:24:20][0x2d280] 	| (5)INFO 	|: Output to console: 	%s >
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 13:26:20 1970] --
+[10:00:03][0x2d35c] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[15:06:16][0x2d320] 	| (5)INFO 	|: Entered CSystem::init()
+[01:33:36][0x2d320] 	| (5)INFO 	|: Initialising System Class
+[01:33:36][0x2d320] 	| (5)INFO 	|: CSystem::init() returned
+[17:49:44][0x2d320] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2d320] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2d320] 	| (5)INFO 	|: Entered CSystem::_main()
+[07:00:04][0x2d338] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[07:00:04][0x2d338] 	| (5)INFO 	|: Output to console: 	%s >
+[14:48:28][0x2d334] 	| (5)INFO 	|: Getting User Input: help
+[10:00:00][0x2d320] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: help 
+[07:00:04][0x2d338] 	| (5)INFO 	|: Output to console: gpio	- 
+		e.g. gpio
+
+[07:00:04][0x2d338] 	| (5)INFO 	|: Output to console: exit	- 
+		e.g. exit
+
+[07:00:04][0x2d338] 	| (5)INFO 	|: Output to console: help	- 
+		e.g. help
+
+[07:00:04][0x2d338] 	| (5)INFO 	|: Output to console: 	%s >
+[14:48:28][0x2d334] 	| (5)INFO 	|: Getting User Input: gpio
+[10:00:00][0x2d320] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[17:49:44][0x2d320] 	| (5)INFO 	|: Program State changed: gpio
+[01:21:36][0x2d320] 	| (5)INFO 	|: CSystem::_main() returned 0
+[01:33:36][0x2d320] 	| (5)INFO 	|: Entered CSystem::_main()
+[07:00:04][0x2d338] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[07:00:04][0x2d338] 	| (5)INFO 	|: Output to console: 	%s >
+[14:48:28][0x2d334] 	| (5)INFO 	|: Getting User Input: help
+[10:00:00][0x2d320] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: help 
+[07:00:04][0x2d338] 	| (5)INFO 	|: Output to console: add	- Add a handle for the specified GPIO-Pin
+		e.g. add:15
+
+[07:00:04][0x2d338] 	| (5)INFO 	|: Output to console: 	%s >
+[14:48:28][0x2d334] 	| (5)INFO 	|: Getting User Input: help
+[10:00:00][0x2d320] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: help 
+[07:00:04][0x2d338] 	| (5)INFO 	|: Output to console: add	- Add a handle for the specified GPIO-Pin
+		e.g. add:15
+
+[07:00:04][0x2d338] 	| (5)INFO 	|: Output to console: 	%s >
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 13:26:20 1970] --
+[10:00:03][0x2d35c] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[08:23:04][0x2d320] 	| (5)INFO 	|: Entered CSystem::init()
+[22:25:52][0x2d320] 	| (5)INFO 	|: Initialising System Class
+[22:25:52][0x2d320] 	| (5)INFO 	|: CSystem::init() returned
+[11:06:32][0x2d320] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2d320] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2d320] 	| (5)INFO 	|: Entered CSystem::_main()
+[00:16:52][0x2d338] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[00:16:52][0x2d338] 	| (5)INFO 	|: Output to console: 	%s >
+[21:59:24][0x2d334] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2d320] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[00:16:52][0x2d338] 	| (5)INFO 	|: Output to console: 	%s >
+[21:59:24][0x2d334] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2d320] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[00:16:52][0x2d338] 	| (5)INFO 	|: Output to console: 	%s >
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 13:36:16 1970] --
+[10:00:03][0x2d5b0] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[05:47:20][0x2d574] 	| (5)INFO 	|: Entered CSystem::init()
+[17:25:04][0x2d574] 	| (5)INFO 	|: Initialising System Class
+[17:25:04][0x2d574] 	| (5)INFO 	|: CSystem::init() returned
+[08:30:48][0x2d574] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2d574] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2d574] 	| (5)INFO 	|: Entered CSystem::_main()
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console: 
+
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[09:32:36][0x2d588] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[17:11:16][0x2d574] 	| (2)ERROR 	|: Unknown program state: 
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[09:32:36][0x2d588] 	| (5)INFO 	|: Getting User Input: gpio
+[10:00:00][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[08:30:48][0x2d574] 	| (5)INFO 	|: Program State changed: gpio
+[17:13:04][0x2d574] 	| (5)INFO 	|: CSystem::_main() returned 0
+[17:25:04][0x2d574] 	| (5)INFO 	|: Entered CSystem::_main()
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console: 
+
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[09:32:36][0x2d588] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[08:30:48][0x2d574] 	| (5)INFO 	|: Program State changed: main
+[17:13:04][0x2d574] 	| (5)INFO 	|: CSystem::_main() returned 0
+[17:25:04][0x2d574] 	| (5)INFO 	|: Entered CSystem::_main()
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console: 
+
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[09:32:36][0x2d588] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[17:11:16][0x2d574] 	| (2)ERROR 	|: Unknown program state: 
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[09:32:36][0x2d588] 	| (5)INFO 	|: Getting User Input: gpio
+[10:00:00][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[08:30:48][0x2d574] 	| (5)INFO 	|: Program State changed: gpio
+[17:13:04][0x2d574] 	| (5)INFO 	|: CSystem::_main() returned 0
+[17:25:04][0x2d574] 	| (5)INFO 	|: Entered CSystem::_main()
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console: 
+
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[09:32:36][0x2d588] 	| (5)INFO 	|: Getting User Input: add:2
+[17:17:44][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[10:02:04][0xeb11a8] 	| (5)INFO 	|: Input Class Initialised
+[16:10:44][0xeb11ac] 	| (5)INFO 	|: Output class initialised
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2d588] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:  
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[09:32:36][0x2d588] 	| (5)INFO 	|: Getting User Input: em:2
+[17:15:20][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: em 2 
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[09:32:36][0x2d588] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[08:30:48][0x2d574] 	| (5)INFO 	|: Program State changed: main
+[17:14:32][0x2d574] 	| (5)INFO 	|: CSystem::_main() returned 0
+[17:25:04][0x2d574] 	| (5)INFO 	|: Entered CSystem::_main()
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console: 
+
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[09:32:36][0x2d588] 	| (5)INFO 	|: Getting User Input: ls
+[10:00:00][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: ls 
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[09:32:36][0x2d588] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[17:11:16][0x2d574] 	| (2)ERROR 	|: Unknown program state: 
+[21:41:08][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 13:36:16 1970] --
+[10:00:03][0x2d5b0] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[18:14:00][0x2d574] 	| (5)INFO 	|: Entered CSystem::init()
+[09:33:36][0x2d574] 	| (5)INFO 	|: Initialising System Class
+[09:33:36][0x2d574] 	| (5)INFO 	|: CSystem::init() returned
+[20:57:28][0x2d574] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2d574] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2d574] 	| (5)INFO 	|: Entered CSystem::_main()
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: 
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[01:30:28][0x2d588] 	| (5)INFO 	|: Getting User Input: help
+[10:00:00][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: help 
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: gpio	- 
+		e.g. gpio
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: exit	- 
+		e.g. exit
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: help	- 
+		e.g. help
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[01:30:28][0x2d588] 	| (5)INFO 	|: Getting User Input: gpio
+[10:00:00][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[20:57:28][0x2d574] 	| (5)INFO 	|: Program State changed: gpio
+[09:21:36][0x2d574] 	| (5)INFO 	|: CSystem::_main() returned 0
+[09:33:36][0x2d574] 	| (5)INFO 	|: Entered CSystem::_main()
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: 
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[01:30:28][0x2d588] 	| (5)INFO 	|: Getting User Input: help
+[10:00:00][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: help 
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: add	- Add a handle for the specified GPIO-Pin
+		e.g. add:15
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: rem	- Remove the specified GPIO-Pin handle
+		e.g. rem:2
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: set	- 
+		e.g. set:4:value:1
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: get	- Get a the value of the specified GPIO-Pin Variable
+		command syntax is 'get:gpio_pin_number:variable_name'
+		accessable variables are: 'dir' (the direction of the gpio pin [in/out])
+					  'value' (the value of the gpio pin [voltage])
+		e.g. get:3:dir
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: exit	- 
+		e.g. exit
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: help	- 
+		e.g. help
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2d588] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:  
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[01:30:28][0x2d588] 	| (5)INFO 	|: Getting User Input: em
+[10:00:00][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: em 
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[01:30:28][0x2d588] 	| (5)INFO 	|: Getting User Input: add
+[10:00:00][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: add	- Add a handle for the specified GPIO-Pin
+		e.g. add:15
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: rem	- Remove the specified GPIO-Pin handle
+		e.g. rem:2
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: set	- 
+		e.g. set:4:value:1
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: get	- Get a the value of the specified GPIO-Pin Variable
+		command syntax is 'get:gpio_pin_number:variable_name'
+		accessable variables are: 'dir' (the direction of the gpio pin [in/out])
+					  'value' (the value of the gpio pin [voltage])
+		e.g. get:3:dir
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: exit	- 
+		e.g. exit
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: help	- 
+		e.g. help
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[01:30:28][0x2d588] 	| (5)INFO 	|: Getting User Input: add
+[10:00:00][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: add	- Add a handle for the specified GPIO-Pin
+		e.g. add:15
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: rem	- Remove the specified GPIO-Pin handle
+		e.g. rem:2
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: set	- 
+		e.g. set:4:value:1
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: get	- Get a the value of the specified GPIO-Pin Variable
+		command syntax is 'get:gpio_pin_number:variable_name'
+		accessable variables are: 'dir' (the direction of the gpio pin [in/out])
+					  'value' (the value of the gpio pin [voltage])
+		e.g. get:3:dir
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: exit	- 
+		e.g. exit
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: help	- 
+		e.g. help
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[01:30:28][0x2d588] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[20:57:28][0x2d574] 	| (5)INFO 	|: Program State changed: main
+[09:21:36][0x2d574] 	| (5)INFO 	|: CSystem::_main() returned 0
+[09:33:36][0x2d574] 	| (5)INFO 	|: Entered CSystem::_main()
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: 
+
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[01:30:28][0x2d588] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[09:19:48][0x2d574] 	| (2)ERROR 	|: Unknown program state: 
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+[01:30:28][0x2d588] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2d574] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[09:19:48][0x2d574] 	| (2)ERROR 	|: Unknown program state: 
+[10:07:48][0x2d58c] 	| (5)INFO 	|: Output to console: 	%s >
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 13:35:00 1970] --
+[10:00:03][0x2d564] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[22:21:28][0x2d528] 	| (5)INFO 	|: Entered CSystem::init()
+[21:17:36][0x2d528] 	| (5)INFO 	|: Initialising System Class
+[21:17:36][0x2d528] 	| (5)INFO 	|: CSystem::init() returned
+[01:04:56][0x2d528] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2d528] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2d528] 	| (5)INFO 	|: Entered CSystem::_main()
+[14:15:16][0x2d540] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[14:15:16][0x2d540] 	| (5)INFO 	|: Output to console: 
+
+[14:15:16][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[01:45:24][0x2d53c] 	| (5)INFO 	|: Getting User Input: help
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: help 
+[14:15:16][0x2d540] 	| (5)INFO 	|: Output to console: gpio	- 
+		e.g. gpio
+
+[14:15:16][0x2d540] 	| (5)INFO 	|: Output to console: exit	- 
+		e.g. exit
+
+[14:15:16][0x2d540] 	| (5)INFO 	|: Output to console: help	- 
+		e.g. help
+
+[14:15:16][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[01:45:24][0x2d53c] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[21:05:36][0x2d528] 	| (5)INFO 	|: CSystem::_main() returned 0
+[21:17:36][0x2d528] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Sat Jan  3 13:35:00 1970] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 13:35:00 1970] --
+[10:00:03][0x2d564] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[20:17:44][0x2d528] 	| (5)INFO 	|: Entered CSystem::init()
+[17:03:44][0x2d528] 	| (5)INFO 	|: Initialising System Class
+[17:03:44][0x2d528] 	| (5)INFO 	|: CSystem::init() returned
+[23:01:12][0x2d528] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2d528] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2d528] 	| (5)INFO 	|: Entered CSystem::_main()
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 
+
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[01:09:08][0x2d53c] 	| (5)INFO 	|: Getting User Input: gpio
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[23:01:12][0x2d528] 	| (5)INFO 	|: Program State changed: gpio
+[16:51:44][0x2d528] 	| (5)INFO 	|: CSystem::_main() returned 0
+[17:03:44][0x2d528] 	| (5)INFO 	|: Entered CSystem::_main()
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 
+
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[01:09:08][0x2d53c] 	| (5)INFO 	|: Getting User Input: help
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: help 
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: add	- Add a handle for the specified GPIO-Pin
+		e.g. add:15
+
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: rem	- Remove the specified GPIO-Pin handle
+		e.g. rem:2
+
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: set	- 
+		e.g. set:4:value:1
+
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: get	- Get a the value of the specified GPIO-Pin Variable
+		command syntax is 'get:gpio_pin_number:variable_name'
+		accessable variables are: 'dir' (the direction of the gpio pin [in/out])
+					  'value' (the value of the gpio pin [voltage])
+		e.g. get:3:dir
+
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: exit	- 
+		e.g. exit
+
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: help	- 
+		e.g. help
+
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2d53c] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:  
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[01:09:08][0x2d53c] 	| (5)INFO 	|: Getting User Input: em
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: em 
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[01:09:08][0x2d53c] 	| (5)INFO 	|: Getting User Input: add
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: add	- Add a handle for the specified GPIO-Pin
+		e.g. add:15
+
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[01:09:08][0x2d53c] 	| (5)INFO 	|: Getting User Input: set
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: set	- 
+		e.g. set:4:value:1
+
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[01:09:08][0x2d53c] 	| (5)INFO 	|: Getting User Input: get
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: get	- Get a the value of the specified GPIO-Pin Variable
+		command syntax is 'get:gpio_pin_number:variable_name'
+		accessable variables are: 'dir' (the direction of the gpio pin [in/out])
+					  'value' (the value of the gpio pin [voltage])
+		e.g. get:3:dir
+
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[01:09:08][0x2d53c] 	| (5)INFO 	|: Getting User Input: help
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: help 
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: add	- Add a handle for the specified GPIO-Pin
+		e.g. add:15
+
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: rem	- Remove the specified GPIO-Pin handle
+		e.g. rem:2
+
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: set	- 
+		e.g. set:4:value:1
+
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: get	- Get a the value of the specified GPIO-Pin Variable
+		command syntax is 'get:gpio_pin_number:variable_name'
+		accessable variables are: 'dir' (the direction of the gpio pin [in/out])
+					  'value' (the value of the gpio pin [voltage])
+		e.g. get:3:dir
+
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: exit	- 
+		e.g. exit
+
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: help	- 
+		e.g. help
+
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[01:09:08][0x2d53c] 	| (5)INFO 	|: Getting User Input: set
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: set	- 
+		e.g. set:4:value:1
+
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[01:09:08][0x2d53c] 	| (5)INFO 	|: Getting User Input:  
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:   
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[01:09:08][0x2d53c] 	| (5)INFO 	|: Getting User Input: em
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: em 
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[01:09:08][0x2d53c] 	| (5)INFO 	|: Getting User Input: em
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: em 
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[01:09:08][0x2d53c] 	| (5)INFO 	|: Getting User Input: em
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: em 
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[01:09:08][0x2d53c] 	| (5)INFO 	|: Getting User Input: em
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: em 
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2d53c] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:  
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2d53c] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:  
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[01:09:08][0x2d53c] 	| (5)INFO 	|: Getting User Input: em
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: em 
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[01:09:08][0x2d53c] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[23:01:12][0x2d528] 	| (5)INFO 	|: Program State changed: main
+[16:51:44][0x2d528] 	| (5)INFO 	|: CSystem::_main() returned 0
+[17:03:44][0x2d528] 	| (5)INFO 	|: Entered CSystem::_main()
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 
+
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2d53c] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln:  
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2d53c] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln:  
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[01:09:08][0x2d53c] 	| (5)INFO 	|: Getting User Input: em
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: em 
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2d53c] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln:  
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2d53c] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln:  
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2d53c] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln:  
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2d53c] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln:  
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2d53c] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln:  
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2d53c] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln:  
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2d53c] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln:  
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2d53c] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln:  
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2d53c] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln:  
+[12:11:32][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[01:09:08][0x2d53c] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[16:53:12][0x2d528] 	| (5)INFO 	|: CSystem::_main() returned 0
+[17:03:44][0x2d528] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Sat Jan  3 13:35:00 1970] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 13:35:00 1970] --
+[10:00:03][0x2d564] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[15:25:28][0x2d528] 	| (5)INFO 	|: Entered CSystem::init()
+[07:08:32][0x2d528] 	| (5)INFO 	|: Initialising System Class
+[07:08:32][0x2d528] 	| (5)INFO 	|: CSystem::init() returned
+[18:08:56][0x2d528] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2d528] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2d528] 	| (5)INFO 	|: Entered CSystem::_main()
+[07:19:16][0x2d540] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[07:19:16][0x2d540] 	| (5)INFO 	|: Output to console: 
+
+[07:19:16][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[04:53:08][0x2d53c] 	| (5)INFO 	|: Getting User Input: gpio
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[18:08:56][0x2d528] 	| (5)INFO 	|: Program State changed: gpio
+[06:56:32][0x2d528] 	| (5)INFO 	|: CSystem::_main() returned 0
+[07:08:32][0x2d528] 	| (5)INFO 	|: Entered CSystem::_main()
+[07:19:16][0x2d540] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[07:19:16][0x2d540] 	| (5)INFO 	|: Output to console: 
+
+[07:19:16][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[04:53:08][0x2d53c] 	| (5)INFO 	|: Getting User Input: add:2
+[07:01:12][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[10:02:04][0xced1a8] 	| (5)INFO 	|: Input Class Initialised
+[16:09:28][0xced1ac] 	| (5)INFO 	|: Output class initialised
+[07:19:16][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[04:53:08][0x2d53c] 	| (5)INFO 	|: Getting User Input: rem:2
+[07:04:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 2 
+[07:19:16][0x2d540] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2d53c] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2d528] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:  
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 14:01:28 1970] --
+[10:00:03][0x2db98] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[22:57:44][0x2db5c] 	| (5)INFO 	|: Entered CSystem::init()
+[22:51:28][0x2db5c] 	| (5)INFO 	|: Initialising System Class
+[22:51:28][0x2db5c] 	| (5)INFO 	|: CSystem::init() returned
+[01:41:12][0x2db5c] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2db5c] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2db5c] 	| (5)INFO 	|: Entered CSystem::_main()
+[14:51:32][0x2db74] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[14:51:32][0x2db74] 	| (5)INFO 	|: Output to console: 
+
+[14:51:32][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[22:24:52][0x2db70] 	| (5)INFO 	|: Getting User Input: gpio
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[01:41:12][0x2db5c] 	| (5)INFO 	|: Program State changed: gpio
+[22:39:28][0x2db5c] 	| (5)INFO 	|: CSystem::_main() returned 0
+[22:51:28][0x2db5c] 	| (5)INFO 	|: Entered CSystem::_main()
+[14:51:32][0x2db74] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[14:51:32][0x2db74] 	| (5)INFO 	|: Output to console: 
+
+[14:51:32][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[22:24:52][0x2db70] 	| (5)INFO 	|: Getting User Input: add
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 
+[14:51:32][0x2db74] 	| (5)INFO 	|: Output to console: add	- Add a handle for the specified GPIO-Pin
+		e.g. add:15
+
+[14:51:32][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[22:24:52][0x2db70] 	| (5)INFO 	|: Getting User Input: add:2
+[22:44:08][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[14:51:32][0x2db74] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+[10:02:04][0x7df1a8] 	| (5)INFO 	|: Input Class Initialised
+[16:30:52][0x7df1ac] 	| (5)INFO 	|: Output class initialised
+[14:51:32][0x2db74] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+[14:51:32][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[22:24:52][0x2db70] 	| (5)INFO 	|: Getting User Input: rem:2
+[22:46:56][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 2 
+[14:51:32][0x2db74] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+[14:51:32][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 14:01:28 1970] --
+[10:00:03][0x2db98] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[01:14:16][0x2db5c] 	| (5)INFO 	|: Entered CSystem::init()
+[11:26:40][0x2db5c] 	| (5)INFO 	|: Initialising System Class
+[11:26:40][0x2db5c] 	| (5)INFO 	|: CSystem::init() returned
+[03:57:44][0x2db5c] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2db5c] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2db5c] 	| (5)INFO 	|: Entered CSystem::_main()
+[17:08:04][0x2db74] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[17:08:04][0x2db74] 	| (5)INFO 	|: Output to console: 
+
+[17:08:04][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[21:37:56][0x2db70] 	| (5)INFO 	|: Getting User Input: gpio
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[03:57:44][0x2db5c] 	| (5)INFO 	|: Program State changed: gpio
+[11:14:40][0x2db5c] 	| (5)INFO 	|: CSystem::_main() returned 0
+[11:26:40][0x2db5c] 	| (5)INFO 	|: Entered CSystem::_main()
+[17:08:04][0x2db74] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[17:08:04][0x2db74] 	| (5)INFO 	|: Output to console: 
+
+[17:08:04][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[21:37:56][0x2db70] 	| (5)INFO 	|: Getting User Input: add:2
+[11:19:20][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[17:08:04][0x2db74] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+[10:02:04][0xd41a8] 	| (5)INFO 	|: Input Class Initialised
+[16:30:52][0xd41ac] 	| (5)INFO 	|: Output class initialised
+[17:08:04][0x2db74] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[17:08:04][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[21:37:56][0x2db70] 	| (5)INFO 	|: Getting User Input: add:2
+[11:22:08][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[17:08:04][0x2db74] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+[17:08:04][0x2db74] 	| (5)INFO 	|: Output to console: GPIO-Pin handle already exists [%p, '%s']
+
+[17:08:04][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[21:37:56][0x2db70] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[03:57:44][0x2db5c] 	| (5)INFO 	|: Program State changed: main
+[11:14:40][0x2db5c] 	| (5)INFO 	|: CSystem::_main() returned 0
+[11:26:40][0x2db5c] 	| (5)INFO 	|: Entered CSystem::_main()
+[17:08:04][0x2db74] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[17:08:04][0x2db74] 	| (5)INFO 	|: Output to console: 
+
+[17:08:04][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[21:37:56][0x2db70] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[11:16:08][0x2db5c] 	| (5)INFO 	|: CSystem::_main() returned 0
+[11:26:40][0x2db5c] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Sat Jan  3 14:01:28 1970] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 14:01:28 1970] --
+[10:00:03][0x2db98] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[21:00:24][0x2db5c] 	| (5)INFO 	|: Entered CSystem::init()
+[07:10:40][0x2db5c] 	| (5)INFO 	|: Initialising System Class
+[07:10:40][0x2db5c] 	| (5)INFO 	|: CSystem::init() returned
+[23:43:52][0x2db5c] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2db5c] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2db5c] 	| (5)INFO 	|: Entered CSystem::_main()
+[12:54:12][0x2db74] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[12:54:12][0x2db74] 	| (5)INFO 	|: Output to console: 
+
+[12:54:12][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[07:39:32][0x2db70] 	| (5)INFO 	|: Getting User Input: add:2
+[07:04:16][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: add 2 
+[12:54:12][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[07:39:32][0x2db70] 	| (5)INFO 	|: Getting User Input: add:2
+[07:06:56][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: add 2 
+[12:54:12][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[07:39:32][0x2db70] 	| (5)INFO 	|: Getting User Input: gpio
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[23:43:52][0x2db5c] 	| (5)INFO 	|: Program State changed: gpio
+[06:58:40][0x2db5c] 	| (5)INFO 	|: CSystem::_main() returned 0
+[07:10:40][0x2db5c] 	| (5)INFO 	|: Entered CSystem::_main()
+[12:54:12][0x2db74] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[12:54:12][0x2db74] 	| (5)INFO 	|: Output to console: 
+
+[12:54:12][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[07:39:32][0x2db70] 	| (5)INFO 	|: Getting User Input: add:2
+[07:07:20][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[12:54:12][0x2db74] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[10:02:04][0x13ee298] 	| (5)INFO 	|: Input Class Initialised
+[16:30:52][0x13ee29c] 	| (5)INFO 	|: Output class initialised
+[12:54:12][0x2db74] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[12:54:12][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[07:39:32][0x2db70] 	| (5)INFO 	|: Getting User Input: add:2
+[07:03:20][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[12:54:12][0x2db74] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[12:54:12][0x2db74] 	| (5)INFO 	|: Output to console: GPIO-Pin handle already exists [%p, '%s']
+
+[12:54:12][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[07:39:32][0x2db70] 	| (5)INFO 	|: Getting User Input: rem:2
+[07:03:20][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 2 
+[12:54:12][0x2db74] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[12:54:12][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 14:01:28 1970] --
+[10:00:03][0x2db98] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[03:20:08][0x2db5c] 	| (5)INFO 	|: Entered CSystem::init()
+[02:58:56][0x2db5c] 	| (5)INFO 	|: Initialising System Class
+[02:58:56][0x2db5c] 	| (5)INFO 	|: CSystem::init() returned
+[06:03:36][0x2db5c] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2db5c] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2db5c] 	| (5)INFO 	|: Entered CSystem::_main()
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 
+
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[07:03:16][0x2db70] 	| (5)INFO 	|: Getting User Input: gpio
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[06:03:36][0x2db5c] 	| (5)INFO 	|: Program State changed: gpio
+[02:46:56][0x2db5c] 	| (5)INFO 	|: CSystem::_main() returned 0
+[02:58:56][0x2db5c] 	| (5)INFO 	|: Entered CSystem::_main()
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 
+
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[07:03:16][0x2db70] 	| (5)INFO 	|: Getting User Input: rem:2
+[02:51:36][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 2 
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: Unable to remove GPIO-Pin handle (does not exist
+
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[07:03:16][0x2db70] 	| (5)INFO 	|: Getting User Input: add:2
+[02:51:52][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[10:02:04][0x837258] 	| (5)INFO 	|: Input Class Initialised
+[16:30:52][0x83725c] 	| (5)INFO 	|: Output class initialised
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[07:03:16][0x2db70] 	| (5)INFO 	|: Getting User Input: rem:2
+[02:51:36][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 2 
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[07:03:16][0x2db70] 	| (5)INFO 	|: Getting User Input: rem:2
+[02:55:04][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 2 
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: Unable to remove GPIO-Pin handle (does not exist
+
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2db70] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:  
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2db70] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:  
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2db70] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:  
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2db70] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:  
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2db70] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:  
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2db70] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:  
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2db70] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:  
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2db70] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:  
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2db70] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:  
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2db70] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:  
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[07:03:16][0x2db70] 	| (5)INFO 	|: Getting User Input: rem2
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem2 
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[07:03:16][0x2db70] 	| (5)INFO 	|: Getting User Input: rem:2
+[02:51:36][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 2 
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: Unable to remove GPIO-Pin handle (does not exist
+
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[07:03:16][0x2db70] 	| (5)INFO 	|: Getting User Input: add:2
+[02:55:04][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[10:02:04][0x837358] 	| (5)INFO 	|: Input Class Initialised
+[16:30:52][0x83735c] 	| (5)INFO 	|: Output class initialised
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[07:03:16][0x2db70] 	| (5)INFO 	|: Getting User Input: rem:2
+[02:49:12][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 2 
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[07:03:16][0x2db70] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[06:03:36][0x2db5c] 	| (5)INFO 	|: Program State changed: main
+[02:53:44][0x2db5c] 	| (5)INFO 	|: CSystem::_main() returned 0
+[02:59:28][0x2db5c] 	| (5)INFO 	|: Entered CSystem::_main()
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 
+
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[07:03:16][0x2db70] 	| (5)INFO 	|: Getting User Input: exi
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exi 
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[07:03:16][0x2db70] 	| (5)INFO 	|: Getting User Input: t
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: t 
+[19:13:56][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[07:03:16][0x2db70] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[02:48:48][0x2db5c] 	| (5)INFO 	|: CSystem::_main() returned 0
+[02:58:56][0x2db5c] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Sat Jan  3 14:01:28 1970] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 14:01:28 1970] --
+[10:00:03][0x2db98] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[09:50:32][0x2db5c] 	| (5)INFO 	|: Entered CSystem::init()
+[00:31:44][0x2db5c] 	| (5)INFO 	|: Initialising System Class
+[00:31:44][0x2db5c] 	| (5)INFO 	|: CSystem::init() returned
+[12:34:00][0x2db5c] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2db5c] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2db5c] 	| (5)INFO 	|: Entered CSystem::_main()
+[01:44:20][0x2db74] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[01:44:20][0x2db74] 	| (5)INFO 	|: Output to console: 
+
+[01:44:20][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[08:05:08][0x2db70] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[00:19:44][0x2db5c] 	| (5)INFO 	|: CSystem::_main() returned 0
+[00:31:44][0x2db5c] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Sat Jan  3 14:01:28 1970] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 14:01:28 1970] --
+[10:00:03][0x2db98] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[18:20:24][0x2db5c] 	| (5)INFO 	|: Entered CSystem::init()
+[03:48:00][0x2db5c] 	| (5)INFO 	|: Initialising System Class
+[03:48:00][0x2db5c] 	| (5)INFO 	|: CSystem::init() returned
+[21:03:52][0x2db5c] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2db5c] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2db5c] 	| (5)INFO 	|: Entered CSystem::_main()
+[10:14:12][0x2db74] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[10:14:12][0x2db74] 	| (5)INFO 	|: Output to console: 
+
+[10:14:12][0x2db74] 	| (5)INFO 	|: Output to console: 	%s >
+[21:35:48][0x2db70] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2db5c] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[03:36:00][0x2db5c] 	| (5)INFO 	|: CSystem::_main() returned 0
+[03:48:00][0x2db5c] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Sat Jan  3 14:01:28 1970] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 14:03:04 1970] --
+[10:00:03][0x2dbf8] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[02:54:32][0x2dbbc] 	| (5)INFO 	|: Entered CSystem::init()
+[07:51:12][0x2dbbc] 	| (5)INFO 	|: Initialising System Class
+[07:51:12][0x2dbbc] 	| (5)INFO 	|: CSystem::init() returned
+[05:38:00][0x2dbbc] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2dbbc] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2dbbc] 	| (5)INFO 	|: Entered CSystem::_main()
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: 
+
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[09:15:32][0x2dbd0] 	| (5)INFO 	|: Getting User Input: pgio
+[10:00:00][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: pgio 
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[09:15:32][0x2dbd0] 	| (5)INFO 	|: Getting User Input: gpio
+[10:00:00][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[05:38:00][0x2dbbc] 	| (5)INFO 	|: Program State changed: gpio
+[07:39:12][0x2dbbc] 	| (5)INFO 	|: CSystem::_main() returned 0
+[07:51:12][0x2dbbc] 	| (5)INFO 	|: Entered CSystem::_main()
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: 
+
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[09:15:32][0x2dbd0] 	| (5)INFO 	|: Getting User Input: add:2
+[07:43:52][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[10:02:04][0xfe51a8] 	| (5)INFO 	|: Input Class Initialised
+[16:32:28][0xfe51ac] 	| (5)INFO 	|: Output class initialised
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[09:15:32][0x2dbd0] 	| (5)INFO 	|: Getting User Input: rem:2
+[07:46:40][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 2 
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[09:15:32][0x2dbd0] 	| (5)INFO 	|: Getting User Input: add:2
+[07:39:12][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[10:02:04][0xfe5278] 	| (5)INFO 	|: Input Class Initialised
+[16:32:28][0xfe527c] 	| (5)INFO 	|: Output class initialised
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[09:15:32][0x2dbd0] 	| (5)INFO 	|: Getting User Input: rem:2
+[07:43:12][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 2 
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[09:15:32][0x2dbd0] 	| (5)INFO 	|: Getting User Input: add:2
+[07:44:08][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[10:02:04][0xfe5278] 	| (5)INFO 	|: Input Class Initialised
+[16:32:28][0xfe527c] 	| (5)INFO 	|: Output class initialised
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[09:15:32][0x2dbd0] 	| (5)INFO 	|: Getting User Input: set:2:dir:out
+[07:51:28][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 2 dir out 
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[09:15:32][0x2dbd0] 	| (5)INFO 	|: Getting User Input: get:2:dir:out
+[07:51:04][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 2 dir out 
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: get	- Get a the value of the specified GPIO-Pin Variable
+		command syntax is 'get:gpio_pin_number:variable_name'
+		accessable variables are: 'dir' (the direction of the gpio pin [in/out])
+					  'value' (the value of the gpio pin [voltage])
+		e.g. get:3:dir
+
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[09:15:32][0x2dbd0] 	| (5)INFO 	|: Getting User Input: get:2:dir
+[07:41:28][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 2 dir 
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[09:15:32][0x2dbd0] 	| (5)INFO 	|: Getting User Input: get:2:value
+[07:46:48][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 2 value 
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[09:15:32][0x2dbd0] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[05:38:00][0x2dbbc] 	| (5)INFO 	|: Program State changed: main
+[07:46:00][0x2dbbc] 	| (5)INFO 	|: CSystem::_main() returned 0
+[07:51:12][0x2dbbc] 	| (5)INFO 	|: Entered CSystem::_main()
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: 
+
+[18:48:20][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[09:15:32][0x2dbd0] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[07:47:52][0x2dbbc] 	| (5)INFO 	|: CSystem::_main() returned 0
+[07:51:12][0x2dbbc] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Sat Jan  3 14:03:04 1970] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 14:03:04 1970] --
+[10:00:03][0x2dbf8] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[21:45:12][0x2dbbc] 	| (5)INFO 	|: Entered CSystem::init()
+[00:29:36][0x2dbbc] 	| (5)INFO 	|: Initialising System Class
+[00:29:36][0x2dbbc] 	| (5)INFO 	|: CSystem::init() returned
+[00:28:40][0x2dbbc] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2dbbc] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2dbbc] 	| (5)INFO 	|: Entered CSystem::_main()
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console: 
+
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[13:51:48][0x2dbd0] 	| (5)INFO 	|: Getting User Input: gpio
+[10:00:00][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[00:28:40][0x2dbbc] 	| (5)INFO 	|: Program State changed: gpio
+[00:17:36][0x2dbbc] 	| (5)INFO 	|: CSystem::_main() returned 0
+[00:29:36][0x2dbbc] 	| (5)INFO 	|: Entered CSystem::_main()
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console: 
+
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[13:51:48][0x2dbd0] 	| (5)INFO 	|: Getting User Input: rem:2
+[00:22:16][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 2 
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console: Unable to remove GPIO-Pin handle (does not exist
+
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[13:51:48][0x2dbd0] 	| (5)INFO 	|: Getting User Input: get:2
+[00:22:32][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 2 
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console: get	- Get a the value of the specified GPIO-Pin Variable
+		command syntax is 'get:gpio_pin_number:variable_name'
+		accessable variables are: 'dir' (the direction of the gpio pin [in/out])
+					  'value' (the value of the gpio pin [voltage])
+		e.g. get:3:dir
+
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[13:51:48][0x2dbd0] 	| (5)INFO 	|: Getting User Input: add:2
+[00:22:16][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[10:02:04][0x5bc1a8] 	| (5)INFO 	|: Input Class Initialised
+[16:32:28][0x5bc1ac] 	| (5)INFO 	|: Output class initialised
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[13:51:48][0x2dbd0] 	| (5)INFO 	|: Getting User Input: rem:2
+[00:25:04][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 2 
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[13:51:48][0x2dbd0] 	| (5)INFO 	|: Getting User Input: exitexit
+[10:00:00][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exitexit 
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[13:51:48][0x2dbd0] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[00:28:40][0x2dbbc] 	| (5)INFO 	|: Program State changed: main
+[00:19:04][0x2dbbc] 	| (5)INFO 	|: CSystem::_main() returned 0
+[00:29:36][0x2dbbc] 	| (5)INFO 	|: Entered CSystem::_main()
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console: 
+
+[13:39:00][0x2dbd4] 	| (5)INFO 	|: Output to console: 	%s >
+[13:51:48][0x2dbd0] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2dbbc] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[00:19:04][0x2dbbc] 	| (5)INFO 	|: CSystem::_main() returned 0
+[00:29:36][0x2dbbc] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Sat Jan  3 14:03:04 1970] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 14:05:04 1970] --
+[10:00:03][0x2dc70] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[06:49:12][0x2dc34] 	| (5)INFO 	|: Entered CSystem::init()
+[15:27:44][0x2dc34] 	| (5)INFO 	|: Initialising System Class
+[15:27:44][0x2dc34] 	| (5)INFO 	|: CSystem::init() returned
+[09:32:40][0x2dc34] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2dc34] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2dc34] 	| (5)INFO 	|: Entered CSystem::_main()
+[22:43:00][0x2dc4c] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[22:43:00][0x2dc4c] 	| (5)INFO 	|: Output to console: 
+
+[22:43:00][0x2dc4c] 	| (5)INFO 	|: Output to console: 	%s >
+[02:46:12][0x2dc48] 	| (5)INFO 	|: Getting User Input: gpio
+[10:00:00][0x2dc34] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[09:32:40][0x2dc34] 	| (5)INFO 	|: Program State changed: gpio
+[15:15:44][0x2dc34] 	| (5)INFO 	|: CSystem::_main() returned 0
+[15:27:44][0x2dc34] 	| (5)INFO 	|: Entered CSystem::_main()
+[22:43:00][0x2dc4c] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[22:43:00][0x2dc4c] 	| (5)INFO 	|: Output to console: 
+
+[22:43:00][0x2dc4c] 	| (5)INFO 	|: Output to console: 	%s >
+[02:46:12][0x2dc48] 	| (5)INFO 	|: Getting User Input: add:2
+[15:20:24][0x2dc34] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[22:43:00][0x2dc4c] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[10:02:04][0x92a1a8] 	| (5)INFO 	|: Input Class Initialised
+[16:34:28][0x92a1ac] 	| (5)INFO 	|: Output class initialised
+[22:43:00][0x2dc4c] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[22:43:00][0x2dc4c] 	| (5)INFO 	|: Output to console: 	%s >
+[02:46:12][0x2dc48] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2dc34] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[09:32:40][0x2dc34] 	| (5)INFO 	|: Program State changed: main
+[15:17:12][0x2dc34] 	| (5)INFO 	|: CSystem::_main() returned 0
+[15:27:44][0x2dc34] 	| (5)INFO 	|: Entered CSystem::_main()
+[22:43:00][0x2dc4c] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[22:43:00][0x2dc4c] 	| (5)INFO 	|: Output to console: 
+
+[22:43:00][0x2dc4c] 	| (5)INFO 	|: Output to console: 	%s >
+[02:46:12][0x2dc48] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2dc34] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[15:17:12][0x2dc34] 	| (5)INFO 	|: CSystem::_main() returned 0
+[15:27:44][0x2dc34] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Sat Jan  3 14:05:04 1970] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 14:05:04 1970] --
+[10:00:03][0x2dc70] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[17:05:44][0x2dc34] 	| (5)INFO 	|: Entered CSystem::init()
+[21:45:20][0x2dc34] 	| (5)INFO 	|: Initialising System Class
+[21:45:20][0x2dc34] 	| (5)INFO 	|: CSystem::init() returned
+[19:49:12][0x2dc34] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2dc34] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2dc34] 	| (5)INFO 	|: Entered CSystem::_main()
+[08:59:32][0x2dc4c] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[08:59:32][0x2dc4c] 	| (5)INFO 	|: Output to console: 
+
+[08:59:32][0x2dc4c] 	| (5)INFO 	|: Output to console: 	%s >
+[07:32:04][0x2dc48] 	| (5)INFO 	|: Getting User Input: gpio
+[10:00:00][0x2dc34] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[19:49:12][0x2dc34] 	| (5)INFO 	|: Program State changed: gpio
+[21:33:20][0x2dc34] 	| (5)INFO 	|: CSystem::_main() returned 0
+[21:45:20][0x2dc34] 	| (5)INFO 	|: Entered CSystem::_main()
+[08:59:32][0x2dc4c] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[08:59:32][0x2dc4c] 	| (5)INFO 	|: Output to console: 
+
+[08:59:32][0x2dc4c] 	| (5)INFO 	|: Output to console: 	%s >
+[07:32:04][0x2dc48] 	| (5)INFO 	|: Getting User Input: add:2
+[21:38:00][0x2dc34] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[08:59:32][0x2dc4c] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[10:02:04][0xedf1a8] 	| (5)INFO 	|: Input Class Initialised
+[16:34:28][0xedf1ac] 	| (5)INFO 	|: Output class initialised
+[08:59:32][0x2dc4c] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[08:59:32][0x2dc4c] 	| (5)INFO 	|: Output to console: 	%s >
+[07:32:04][0x2dc48] 	| (5)INFO 	|: Getting User Input: rem:2
+[21:40:48][0x2dc34] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 2 
+[08:59:32][0x2dc4c] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[08:59:32][0x2dc4c] 	| (5)INFO 	|: Output to console: 	%s >
+[07:32:04][0x2dc48] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2dc34] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[19:49:12][0x2dc34] 	| (5)INFO 	|: Program State changed: main
+[21:33:20][0x2dc34] 	| (5)INFO 	|: CSystem::_main() returned 0
+[21:45:20][0x2dc34] 	| (5)INFO 	|: Entered CSystem::_main()
+[08:59:32][0x2dc4c] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[08:59:32][0x2dc4c] 	| (5)INFO 	|: Output to console: 
+
+[08:59:32][0x2dc4c] 	| (5)INFO 	|: Output to console: 	%s >
+[07:32:04][0x2dc48] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2dc34] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[21:34:48][0x2dc34] 	| (5)INFO 	|: CSystem::_main() returned 0
+[21:45:20][0x2dc34] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Sat Jan  3 14:05:04 1970] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 14:05:04 1970] --
+[10:00:03][0x2dc70] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[06:32:08][0x2dc34] 	| (5)INFO 	|: Entered CSystem::init()
+[16:50:56][0x2dc34] 	| (5)INFO 	|: Initialising System Class
+[16:50:56][0x2dc34] 	| (5)INFO 	|: CSystem::init() returned
+[09:15:36][0x2dc34] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2dc34] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2dc34] 	| (5)INFO 	|: Entered CSystem::_main()
+[22:25:56][0x2dc4c] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[22:25:56][0x2dc4c] 	| (5)INFO 	|: Output to console: 
+
+[22:25:56][0x2dc4c] 	| (5)INFO 	|: Output to console: 	%s >
+[06:00:20][0x2dc48] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2dc34] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[16:38:56][0x2dc34] 	| (5)INFO 	|: CSystem::_main() returned 0
+[16:50:56][0x2dc34] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Sat Jan  3 14:05:04 1970] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 14:37:16 1970] --
+[10:00:03][0x2e3fc] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[18:07:36][0x2e3c0] 	| (5)INFO 	|: Entered CSystem::init()
+[15:51:12][0x2e3c0] 	| (5)INFO 	|: Initialising System Class
+[15:51:12][0x2e3c0] 	| (5)INFO 	|: CSystem::init() returned
+[20:51:04][0x2e3c0] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2e3c0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2e3c0] 	| (5)INFO 	|: Entered CSystem::_main()
+[10:01:24][0x2e3d8] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[10:01:24][0x2e3d8] 	| (5)INFO 	|: Output to console: 
+
+[10:01:24][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[22:13:08][0x2e3d4] 	| (5)INFO 	|: Getting User Input: pgio
+[10:00:00][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: pgio 
+[10:01:24][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[22:13:08][0x2e3d4] 	| (5)INFO 	|: Getting User Input: gpio
+[10:00:00][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[20:51:04][0x2e3c0] 	| (5)INFO 	|: Program State changed: gpio
+[15:39:12][0x2e3c0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[15:51:12][0x2e3c0] 	| (5)INFO 	|: Entered CSystem::_main()
+[10:01:24][0x2e3d8] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[10:01:24][0x2e3d8] 	| (5)INFO 	|: Output to console: 
+
+[10:01:24][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[22:13:08][0x2e3d4] 	| (5)INFO 	|: Getting User Input: add:2
+[15:43:52][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[10:01:24][0x2e3d8] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[10:02:04][0x1ed61a8] 	| (5)INFO 	|: Input Class Initialised
+[17:02:08][0x1ed61ac] 	| (5)INFO 	|: Output class initialised
+[10:01:24][0x2e3d8] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[10:01:24][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[22:13:08][0x2e3d4] 	| (5)INFO 	|: Getting User Input: get:2:value
+[15:40:40][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 2 value 
+[10:00:00][0x2e3d8] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[10:00:01][0x2e3d8] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[10:01:24][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[22:13:08][0x2e3d4] 	| (5)INFO 	|: Getting User Input: get:2:dir
+[15:47:52][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 2 dir 
+[10:00:00][0x2e3d8] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[10:01:24][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[22:13:08][0x2e3d4] 	| (5)INFO 	|: Getting User Input: rem:2
+[15:46:16][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 2 
+[10:01:24][0x2e3d8] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[10:01:24][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[22:13:08][0x2e3d4] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[20:51:04][0x2e3c0] 	| (5)INFO 	|: Program State changed: main
+[15:39:12][0x2e3c0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[15:51:12][0x2e3c0] 	| (5)INFO 	|: Entered CSystem::_main()
+[10:01:24][0x2e3d8] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[10:01:24][0x2e3d8] 	| (5)INFO 	|: Output to console: 
+
+[10:01:24][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[22:13:08][0x2e3d4] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[15:40:40][0x2e3c0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[15:51:12][0x2e3c0] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Sat Jan  3 14:37:16 1970] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 14:37:16 1970] --
+[10:00:03][0x2e3fc] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[01:20:40][0x2e3c0] 	| (5)INFO 	|: Entered CSystem::init()
+[06:55:44][0x2e3c0] 	| (5)INFO 	|: Initialising System Class
+[06:55:44][0x2e3c0] 	| (5)INFO 	|: CSystem::init() returned
+[04:04:08][0x2e3c0] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2e3c0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2e3c0] 	| (5)INFO 	|: Entered CSystem::_main()
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: 
+
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[01:42:12][0x2e3d4] 	| (5)INFO 	|: Getting User Input: gpio
+[10:00:00][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[04:04:08][0x2e3c0] 	| (5)INFO 	|: Program State changed: gpio
+[06:43:44][0x2e3c0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[06:55:44][0x2e3c0] 	| (5)INFO 	|: Entered CSystem::_main()
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: 
+
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[01:42:12][0x2e3d4] 	| (5)INFO 	|: Getting User Input: add:2
+[06:48:24][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[10:02:04][0x17a31a8] 	| (5)INFO 	|: Input Class Initialised
+[17:02:08][0x17a31ac] 	| (5)INFO 	|: Output class initialised
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[01:42:12][0x2e3d4] 	| (5)INFO 	|: Getting User Input: get:2:dir
+[06:52:40][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 2 dir 
+[10:00:00][0x2e3d8] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[01:42:12][0x2e3d4] 	| (5)INFO 	|: Getting User Input: get:2:value
+[06:45:52][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 2 value 
+[10:00:00][0x2e3d8] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[10:00:01][0x2e3d8] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[01:42:12][0x2e3d4] 	| (5)INFO 	|: Getting User Input: add:17
+[06:50:48][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 17 
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[10:02:04][0x17a3270] 	| (5)INFO 	|: Input Class Initialised
+[17:02:08][0x17a3274] 	| (5)INFO 	|: Output class initialised
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[01:42:12][0x2e3d4] 	| (5)INFO 	|: Getting User Input: set:2:dir:out
+[06:57:12][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 2 dir out 
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[01:42:12][0x2e3d4] 	| (5)INFO 	|: Getting User Input: get:17:dir
+[06:51:20][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 17 dir 
+[10:00:00][0x2e3d8] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[01:42:12][0x2e3d4] 	| (5)INFO 	|: Getting User Input: get:17:value
+[06:56:24][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 17 value 
+[10:00:00][0x2e3d8] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[10:00:00][0x2e3d8] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[01:42:12][0x2e3d4] 	| (5)INFO 	|: Getting User Input: rem:17
+[10:00:00][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 17 
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[01:42:12][0x2e3d4] 	| (5)INFO 	|: Getting User Input: rem:2
+[06:51:12][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 2 
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[01:42:12][0x2e3d4] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[04:04:08][0x2e3c0] 	| (5)INFO 	|: Program State changed: main
+[06:45:12][0x2e3c0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[06:55:44][0x2e3c0] 	| (5)INFO 	|: Entered CSystem::_main()
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: 
+
+[17:14:28][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[01:42:12][0x2e3d4] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[06:44:00][0x2e3c0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[06:55:44][0x2e3c0] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Sat Jan  3 14:37:16 1970] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 14:37:16 1970] --
+[10:00:03][0x2e3fc] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[03:00:56][0x2e3c0] 	| (5)INFO 	|: Entered CSystem::init()
+[03:50:08][0x2e3c0] 	| (5)INFO 	|: Initialising System Class
+[03:50:08][0x2e3c0] 	| (5)INFO 	|: CSystem::init() returned
+[05:44:24][0x2e3c0] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2e3c0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2e3c0] 	| (5)INFO 	|: Entered CSystem::_main()
+[18:54:44][0x2e3d8] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[18:54:44][0x2e3d8] 	| (5)INFO 	|: Output to console: 
+
+[18:54:44][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[03:16:04][0x2e3d4] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[03:38:08][0x2e3c0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[03:50:08][0x2e3c0] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Sat Jan  3 14:37:16 1970] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 14:37:16 1970] --
+[10:00:03][0x2e3fc] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[20:24:08][0x2e3c0] 	| (5)INFO 	|: Entered CSystem::init()
+[17:35:44][0x2e3c0] 	| (5)INFO 	|: Initialising System Class
+[17:35:44][0x2e3c0] 	| (5)INFO 	|: CSystem::init() returned
+[23:07:36][0x2e3c0] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2e3c0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2e3c0] 	| (5)INFO 	|: Entered CSystem::_main()
+[12:17:56][0x2e3d8] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[12:17:56][0x2e3d8] 	| (5)INFO 	|: Output to console: 
+
+[12:17:56][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[19:31:00][0x2e3d4] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[17:23:44][0x2e3c0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[17:35:44][0x2e3c0] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Sat Jan  3 14:37:16 1970] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 14:37:16 1970] --
+[10:00:03][0x2e3fc] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[18:56:40][0x2e3c0] 	| (5)INFO 	|: Entered CSystem::init()
+[20:15:44][0x2e3c0] 	| (5)INFO 	|: Initialising System Class
+[20:15:44][0x2e3c0] 	| (5)INFO 	|: CSystem::init() returned
+[21:40:08][0x2e3c0] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2e3c0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2e3c0] 	| (5)INFO 	|: Entered CSystem::_main()
+[10:50:28][0x2e3d8] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[10:50:28][0x2e3d8] 	| (5)INFO 	|: Output to console: 
+
+[10:50:28][0x2e3d8] 	| (5)INFO 	|: Output to console: 	%s >
+[05:09:08][0x2e3d4] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2e3c0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[20:03:44][0x2e3c0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:15:44][0x2e3c0] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Sat Jan  3 14:37:16 1970] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 15:04:40 1970] --
+[10:00:03][0x2ea68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[05:36:40][0x2ea2c] 	| (5)INFO 	|: Entered CSystem::init()
+[07:21:20][0x2ea2c] 	| (5)INFO 	|: Initialising System Class
+[07:21:20][0x2ea2c] 	| (5)INFO 	|: CSystem::init() returned
+[08:20:08][0x2ea2c] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2ea2c] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2ea2c] 	| (5)INFO 	|: Entered CSystem::_main()
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: 
+
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: 	%s >
+[11:39:32][0x2ea40] 	| (5)INFO 	|: Getting User Input: gpio
+[10:00:00][0x2ea2c] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[08:20:08][0x2ea2c] 	| (5)INFO 	|: Program State changed: gpio
+[07:09:20][0x2ea2c] 	| (5)INFO 	|: CSystem::_main() returned 0
+[07:21:20][0x2ea2c] 	| (5)INFO 	|: Entered CSystem::_main()
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: 
+
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: 	%s >
+[11:39:32][0x2ea40] 	| (5)INFO 	|: Getting User Input: help
+[10:00:00][0x2ea2c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: help 
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: add	- Add a handle for the specified GPIO-Pin
+		e.g. add:15
+
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: rem	- Remove the specified GPIO-Pin handle
+		e.g. rem:2
+
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: set	- 
+		e.g. set:4:value:1
+
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: get	- Get a the value of the specified GPIO-Pin Variable
+		command syntax is 'get:gpio_pin_number:variable_name'
+		accessable variables are: 'dir' (the direction of the gpio pin [in/out])
+					  'value' (the value of the gpio pin [voltage])
+		e.g. get:3:dir
+
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: exit	- 
+		e.g. exit
+
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: help	- 
+		e.g. help
+
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: 	%s >
+[11:39:32][0x2ea40] 	| (5)INFO 	|: Getting User Input: add:2
+[07:14:00][0x2ea2c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[10:02:04][0x174f1a8] 	| (5)INFO 	|: Input Class Initialised
+[17:25:48][0x174f1ac] 	| (5)INFO 	|: Output class initialised
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: 	%s >
+[11:39:32][0x2ea40] 	| (5)INFO 	|: Getting User Input: rem:2
+[07:16:48][0x2ea2c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 2 
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: 	%s >
+[11:39:32][0x2ea40] 	| (5)INFO 	|: Getting User Input: add:17
+[07:09:20][0x2ea2c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 17 
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[10:02:04][0x174f278] 	| (5)INFO 	|: Input Class Initialised
+[17:25:48][0x174f27c] 	| (5)INFO 	|: Output class initialised
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: 	%s >
+[11:39:32][0x2ea40] 	| (5)INFO 	|: Getting User Input: get:17:dir
+[10:00:00][0x2ea2c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 17 dir 
+[10:00:00][0x2ea44] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: 	%s >
+[11:39:32][0x2ea40] 	| (5)INFO 	|: Getting User Input: set:17:dir:out
+[07:21:36][0x2ea2c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 17 dir out 
+[10:00:00][0x2ea2c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 17 dir 
+[10:00:00][0x2ea44] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: 	%s >
+[05:40:24][0x2ea40] 	| (5)INFO 	|: Getting User Input: 
+[10:00:00][0x2ea2c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln:  
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: 	%s >
+[11:39:32][0x2ea40] 	| (5)INFO 	|: Getting User Input: get:17:dir
+[10:00:00][0x2ea2c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 17 dir 
+[10:00:00][0x2ea44] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: 	%s >
+[11:39:32][0x2ea40] 	| (5)INFO 	|: Getting User Input: set:17:dir:in
+[07:21:36][0x2ea2c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 17 dir in 
+[10:00:00][0x2ea2c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 17 dir 
+[10:00:00][0x2ea44] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: 	%s >
+[11:39:32][0x2ea40] 	| (5)INFO 	|: Getting User Input: set:3:dir
+[10:00:00][0x2ea2c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 3 dir 
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: set	- 
+		e.g. set:4:value:1
+
+[21:30:28][0x2ea44] 	| (5)INFO 	|: Output to console: 	%s >
+[11:39:32][0x2ea40] 	| (5)INFO 	|: Getting User Input: get:3:dir
+[10:00:00][0x2ea2c] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 3 dir 
+__________________________________________
+-- DEBUGLOG [Sat Jan  3 15:04:40 1970] --
+[10:00:03][0x2ea68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[21:00:24][0x2ea2c] 	| (5)INFO 	|: Entered CSystem::init()
+[23:53:20][0x2ea2c] 	| (5)INFO 	|: Initialising System Class
+[23:53:20][0x2ea2c] 	| (5)INFO 	|: CSystem::init() returned
+[23:43:52][0x2ea2c] 	| (5)INFO 	|: Program State changed: main
+[05:40:24][0x2ea2c] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x2ea2c] 	| (5)INFO 	|: Entered CSystem::_main()
+[12:54:12][0x2ea44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[12:54:12][0x2ea44] 	| (5)INFO 	|: Output to console: 
+
+[12:54:12][0x2ea44] 	| (5)INFO 	|: Output to console: 	%s >
+[15:19:16][0x2ea40] 	| (5)INFO 	|: Getting User Input: exit
+[10:00:00][0x2ea2c] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[23:41:20][0x2ea2c] 	| (5)INFO 	|: CSystem::_main() returned 0
+[23:53:20][0x2ea2c] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Sat Jan  3 15:04:40 1970] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Tue Apr  5 02:44:00 2033] --
+[10:00:00][0x308d4] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[10:00:01][0x30898] 	| (5)INFO 	|: Entered CSystem::init()
+[10:00:01][0x30898] 	| (5)INFO 	|: Initialising System Class
+[10:00:01][0x30898] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30898] 	| (5)INFO 	|: Program State changed: main
+[20:42:04][0x30898] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30898] 	| (5)INFO 	|: Entered CSystem::_main()
+[20:30:12][0x308b0] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[20:30:12][0x308b0] 	| (5)INFO 	|: Output to console: 
+
+[20:30:12][0x308b0] 	| (5)INFO 	|: Output to console: 	%s >
+[11:21:16][0x308ac] 	| (5)INFO 	|: Getting User Input: exit
+[11:21:16][0x30898] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[11:21:16][0x30898] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30898] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Tue Apr  5 02:44:00 2033] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Apr  2 16:42:24 2033] --
+[10:00:00][0x308d4] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[10:00:01][0x30898] 	| (5)INFO 	|: Entered CSystem::init()
+[10:00:01][0x30898] 	| (5)INFO 	|: Initialising System Class
+[10:00:01][0x30898] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30898] 	| (5)INFO 	|: Program State changed: main
+[20:42:04][0x30898] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30898] 	| (5)INFO 	|: Entered CSystem::_main()
+[10:28:36][0x308b0] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[10:28:36][0x308b0] 	| (5)INFO 	|: Output to console: 
+
+[10:28:36][0x308b0] 	| (5)INFO 	|: Output to console: 	%s >
+[01:19:40][0x308ac] 	| (5)INFO 	|: Getting User Input: exit
+[01:19:40][0x30898] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[01:19:40][0x30898] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30898] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Sat Apr  2 16:42:24 2033] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Thu Apr  7 07:04:16 2033] --
+[10:00:00][0x308d4] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[10:00:01][0x30898] 	| (5)INFO 	|: Entered CSystem::init()
+[10:00:01][0x30898] 	| (5)INFO 	|: Initialising System Class
+[10:00:01][0x30898] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30898] 	| (5)INFO 	|: Program State changed: main
+[20:42:04][0x30898] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30898] 	| (5)INFO 	|: Entered CSystem::_main()
+[00:50:28][0x308b0] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[00:50:28][0x308b0] 	| (5)INFO 	|: Output to console: 
+
+[00:50:28][0x308b0] 	| (5)INFO 	|: Output to console: 	%s >
+[15:41:32][0x308ac] 	| (5)INFO 	|: Getting User Input: exit
+[15:41:32][0x30898] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[15:41:32][0x30898] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30898] 	| (5)INFO 	|: CSystem::run() returned 0
+-- END OF DEBUG LOG [Thu Apr  7 07:04:16 2033] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Tue Jul  7 06:52:36 2037] --
+[10:00:00][0x30ad0] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[00:47:04][0x30a90] 	| (5)INFO 	|: Entered CSystem::init()
+[00:47:04][0x30a90] 	| (5)INFO 	|: Initialising System Class
+[00:47:04][0x30a90] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30a90] 	| (5)INFO 	|: Program State changed: main
+[17:03:52][0x1a4f0e0] 	| (2)ERROR 	|: CPyManager: Cannot decode program name (./debug)
+[16:17:36][0x1a4f0e0] 	| (5)INFO 	|: Running python script: py/test.py
+[17:23:00][0x1a4f0a0] 	| (3)WARN 	|: Python file (py/test.py) has not been initialized
+__________________________________________
+-- DEBUGLOG [Sat Jun 27 03:23:32 2037] --
+[10:00:00][0x30ad0] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[12:22:32][0x30a90] 	| (5)INFO 	|: Entered CSystem::init()
+[12:22:32][0x30a90] 	| (5)INFO 	|: Initialising System Class
+[12:22:32][0x30a90] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30a90] 	| (5)INFO 	|: Program State changed: main
+[05:30:32][0xc580e0] 	| (2)ERROR 	|: CPyManager: Cannot decode program name (./debug)
+[03:53:04][0xc580e0] 	| (5)INFO 	|: Running python script: py/test.py
+[17:23:00][0xc580a0] 	| (3)WARN 	|: Python file (py/test.py) has not been initialized
+__________________________________________
+-- DEBUGLOG [Mon May 18 15:55:32 2037] --
+[10:00:00][0x30ad0] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[06:45:28][0x30a90] 	| (5)INFO 	|: Entered CSystem::init()
+[06:45:28][0x30a90] 	| (5)INFO 	|: Initialising System Class
+[06:45:28][0x30a90] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30a90] 	| (5)INFO 	|: Program State changed: main
+[21:00:40][0xcba0e0] 	| (2)ERROR 	|: CPyManager: Cannot decode program name (./debug)
+[22:16:00][0xcba0e0] 	| (5)INFO 	|: Running python script: py/test.py
+[17:23:00][0xcba0a0] 	| (3)WARN 	|: Python file (py/test.py) has not been initialized
+__________________________________________
+-- DEBUGLOG [Mon Apr 20 09:30:28 2037] --
+[10:00:00][0x30c20] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[11:56:56][0x30be0] 	| (5)INFO 	|: Entered CSystem::init()
+[11:56:56][0x30be0] 	| (5)INFO 	|: Initialising System Class
+[11:56:56][0x30be0] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30be0] 	| (5)INFO 	|: Program State changed: main
+[21:22:00][0x1b650e0] 	| (2)ERROR 	|: CPyManager: Cannot decode program name (./debug)
+[17:28:36][0x1b650e0] 	| (2)ERROR 	|: Cannot add python script(py/test.py): CPyManager not initialized
+[00:48:24][0x1b650e0] 	| (2)ERROR 	|: Cannot run python script(py/test.py): CPyManager not initialized
+[00:48:24][0x1b650e0] 	| (2)ERROR 	|: Cannot remove python script(py/test.py): CPyManager not initialized
+[20:17:25][0x30be0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30be0] 	| (5)INFO 	|: Entered CSystem::_main()
+[08:18:28][0x30bfc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[08:18:28][0x30bfc] 	| (5)INFO 	|: Output to console: 
+
+[08:18:28][0x30bfc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30bf8] 	| (5)INFO 	|: Getting User Input: exit
+[23:09:32][0x30be0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[23:09:32][0x30be0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30be0] 	| (5)INFO 	|: CSystem::run() returned 0
+[21:47:44][0x1b650e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+[17:22:40][0x1b650e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Mon Apr 20 09:30:28 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Mon Apr  6 08:43:32 2037] --
+[10:00:00][0x30c20] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[04:05:28][0x30be0] 	| (5)INFO 	|: Entered CSystem::init()
+[04:05:28][0x30be0] 	| (5)INFO 	|: Initialising System Class
+[04:05:28][0x30be0] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30be0] 	| (5)INFO 	|: Program State changed: main
+[17:06:00][0x19670e0] 	| (2)ERROR 	|: CPyManager: Cannot decode program name (./debug)
+[17:28:36][0x19670e0] 	| (2)ERROR 	|: Cannot add python script(py/test.py): CPyManager not initialized
+[00:48:24][0x19670e0] 	| (2)ERROR 	|: Cannot run python script(py/test.py): CPyManager not initialized
+[00:48:24][0x19670e0] 	| (2)ERROR 	|: Cannot remove python script(py/test.py): CPyManager not initialized
+[20:17:27][0x30be0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30be0] 	| (5)INFO 	|: Entered CSystem::_main()
+[00:27:00][0x30bfc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[00:27:00][0x30bfc] 	| (5)INFO 	|: Output to console: 
+
+[00:27:00][0x30bfc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30bf8] 	| (5)INFO 	|: Getting User Input: exit
+[15:18:04][0x30be0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[15:18:04][0x30be0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30be0] 	| (5)INFO 	|: CSystem::run() returned 0
+[21:47:44][0x19670e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+[17:22:40][0x19670e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Mon Apr  6 08:43:32 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Thu Apr 23 14:52:36 2037] --
+[10:00:00][0x30c70] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[11:44:08][0x30c30] 	| (5)INFO 	|: Entered CSystem::init()
+[11:44:08][0x30c30] 	| (5)INFO 	|: Initialising System Class
+[11:44:08][0x30c30] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30c30] 	| (5)INFO 	|: Program State changed: main
+[15:51:20][0xeef0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[13:56:48][0xeef0e0] 	| (5)INFO 	|: Running python script: py/test.py
+[17:29:56][0xf42ae8] 	| (3)WARN 	|: Python file (py/test.py) has not been initialized
+[03:52:08][0xf42ae8] 	| (3)WARN 	|: Python file failed to run (py/test.py): Unhandled exception (args[ ])
+[10:00:00][0x30c30] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30c30] 	| (5)INFO 	|: Entered CSystem::_main()
+[08:05:40][0x30c4c] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[08:05:40][0x30c4c] 	| (5)INFO 	|: Output to console: 
+
+[08:05:40][0x30c4c] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30c48] 	| (5)INFO 	|: Getting User Input: exit
+[22:56:44][0x30c30] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[22:56:44][0x30c30] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30c30] 	| (5)INFO 	|: CSystem::run() returned 0
+[08:30:40][0xeef0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Thu Apr 23 14:52:36 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Wed Jun  3 19:36:20 2037] --
+[10:00:00][0x30c70] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[12:35:20][0x30c30] 	| (5)INFO 	|: Entered CSystem::init()
+[12:35:20][0x30c30] 	| (5)INFO 	|: Initialising System Class
+[12:35:20][0x30c30] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30c30] 	| (5)INFO 	|: Program State changed: main
+[09:46:32][0xbb30e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[14:48:00][0xbb30e0] 	| (5)INFO 	|: Running python script: py/test.py
+[17:29:56][0xc02940] 	| (3)WARN 	|: Python file (py/test.py) has not been initialized
+[04:43:20][0xc02940] 	| (3)WARN 	|: Python file failed to run (py/test.py): Unhandled exception (args[ ])
+[10:00:00][0x30c30] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30c30] 	| (5)INFO 	|: Entered CSystem::_main()
+[08:56:52][0x30c4c] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[08:56:52][0x30c4c] 	| (5)INFO 	|: Output to console: 
+
+[08:56:52][0x30c4c] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30c48] 	| (5)INFO 	|: Getting User Input: exit
+[23:47:56][0x30c30] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[23:47:56][0x30c30] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30c30] 	| (5)INFO 	|: CSystem::run() returned 0
+[09:21:52][0xbb30e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Wed Jun  3 19:36:20 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Mon Jun 29 06:35:32 2037] --
+[10:00:00][0x30c70] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[10:29:28][0x30c30] 	| (5)INFO 	|: Entered CSystem::init()
+[10:29:28][0x30c30] 	| (5)INFO 	|: Initialising System Class
+[10:29:28][0x30c30] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30c30] 	| (5)INFO 	|: Program State changed: main
+[15:06:32][0xa3c0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[12:42:08][0xa3c0e0] 	| (5)INFO 	|: Running python script: py/test.py
+[17:29:56][0xa8bf28] 	| (3)WARN 	|: Python file (py/test.py) has not been initialized
+[10:00:00][0x30c30] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30c30] 	| (5)INFO 	|: Entered CSystem::_main()
+[06:51:00][0x30c4c] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[06:51:00][0x30c4c] 	| (5)INFO 	|: Output to console: 
+
+[06:51:00][0x30c4c] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30c48] 	| (5)INFO 	|: Getting User Input: rip
+[21:42:04][0x30c30] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: rip 
+[09:59:59][0x30c4c] 	| (5)INFO 	|: Output to console: 	%s >
+[02:13:45][0x30c48] 	| (5)INFO 	|: Getting User Input: exot
+[06:33:40][0x30c30] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exot 
+[09:59:59][0x30c4c] 	| (5)INFO 	|: Output to console: 	%s >
+[02:13:45][0x30c48] 	| (5)INFO 	|: Getting User Input: exit
+[06:33:40][0x30c30] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[21:46:56][0x30c30] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30c30] 	| (5)INFO 	|: CSystem::run() returned 0
+[21:42:04][0xa3c0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Mon Jun 29 06:35:32 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Fri Apr 17 07:33:08 2037] --
+[10:00:00][0x30c70] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[13:41:28][0x30c30] 	| (5)INFO 	|: Entered CSystem::init()
+[13:41:28][0x30c30] 	| (5)INFO 	|: Initialising System Class
+[13:41:28][0x30c30] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30c30] 	| (5)INFO 	|: Program State changed: main
+[12:32:56][0x44b0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[15:54:08][0x44b0e0] 	| (5)INFO 	|: Running python script: test.py
+[17:29:56][0x499158] 	| (3)WARN 	|: Python file (test.py) has not been initialized
+[10:00:00][0x30c30] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30c30] 	| (5)INFO 	|: Entered CSystem::_main()
+[10:03:00][0x30c4c] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[10:03:00][0x30c4c] 	| (5)INFO 	|: Output to console: 
+
+[10:03:00][0x30c4c] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30c48] 	| (5)INFO 	|: Getting User Input: exit
+[00:54:04][0x30c30] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[00:54:04][0x30c30] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30c30] 	| (5)INFO 	|: CSystem::run() returned 0
+[00:54:04][0x44b0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Fri Apr 17 07:33:08 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Tue Jun  2 01:30:28 2037] --
+[10:00:00][0x30c70] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[17:02:00][0x30c30] 	| (5)INFO 	|: Entered CSystem::init()
+[17:02:00][0x30c30] 	| (5)INFO 	|: Initialising System Class
+[17:02:00][0x30c30] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30c30] 	| (5)INFO 	|: Program State changed: main
+[11:14:00][0x38c0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[19:14:40][0x38c0e0] 	| (5)INFO 	|: Running python script: test.py
+[17:29:56][0x394448] 	| (3)WARN 	|: Python file (test.py) has not been initialized
+[10:00:00][0x30c30] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30c30] 	| (5)INFO 	|: Entered CSystem::_main()
+[13:23:32][0x30c4c] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[13:23:32][0x30c4c] 	| (5)INFO 	|: Output to console: 
+
+[13:23:32][0x30c4c] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30c48] 	| (5)INFO 	|: Getting User Input: exit
+[04:14:36][0x30c30] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[04:14:36][0x30c30] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30c30] 	| (5)INFO 	|: CSystem::run() returned 0
+[04:14:36][0x38c0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Tue Jun  2 01:30:28 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat May 30 14:20:36 2037] --
+[10:00:00][0x30cc8] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[01:55:20][0x30c88] 	| (5)INFO 	|: Entered CSystem::init()
+[01:55:20][0x30c88] 	| (5)INFO 	|: Initialising System Class
+[01:55:20][0x30c88] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30c88] 	| (5)INFO 	|: Program State changed: main
+[17:06:00][0xedb0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[04:08:00][0xedb0e0] 	| (5)INFO 	|: Running python script: test.py
+[17:31:24][0xedb2a8] 	| (3)WARN 	|: Python file (test.py) has not been initialized
+[10:00:00][0x30c88] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30c88] 	| (5)INFO 	|: Entered CSystem::_main()
+[22:16:52][0x30ca4] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[22:16:52][0x30ca4] 	| (5)INFO 	|: Output to console: 
+
+[22:16:52][0x30ca4] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30ca0] 	| (5)INFO 	|: Getting User Input: exit
+[13:07:56][0x30c88] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[13:07:56][0x30c88] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30c88] 	| (5)INFO 	|: CSystem::run() returned 0
+[13:07:56][0xedb0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Sat May 30 14:20:36 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Tue Jun  9 21:14:28 2037] --
+[10:00:00][0x30cc8] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[21:03:04][0x30c88] 	| (5)INFO 	|: Entered CSystem::init()
+[21:03:04][0x30c88] 	| (5)INFO 	|: Initialising System Class
+[21:03:04][0x30c88] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30c88] 	| (5)INFO 	|: Program State changed: main
+[19:07:36][0xd4c0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[23:15:44][0xd4c0e0] 	| (5)INFO 	|: Running python script: test.py
+[17:31:24][0xd4c2a8] 	| (3)WARN 	|: Python file (test.py) has not been initialized
+[10:00:00][0x30c88] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30c88] 	| (5)INFO 	|: Entered CSystem::_main()
+[17:24:36][0x30ca4] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[17:24:36][0x30ca4] 	| (5)INFO 	|: Output to console: 
+
+[17:24:36][0x30ca4] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30ca0] 	| (5)INFO 	|: Getting User Input: exit
+[08:15:40][0x30c88] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[08:15:40][0x30c88] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30c88] 	| (5)INFO 	|: CSystem::run() returned 0
+[08:15:40][0xd4c0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Tue Jun  9 21:14:28 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Mon Apr 20 06:05:40 2037] --
+[10:00:00][0x30cc8] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[13:43:36][0x30c88] 	| (5)INFO 	|: Entered CSystem::init()
+[13:43:36][0x30c88] 	| (5)INFO 	|: Initialising System Class
+[13:43:36][0x30c88] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30c88] 	| (5)INFO 	|: Program State changed: main
+[09:46:32][0x163f0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[15:56:16][0x163f0e0] 	| (5)INFO 	|: Running python script: test.py
+[17:31:24][0x163f2a8] 	| (3)WARN 	|: Python file (test.py) has not been initialized
+[10:00:00][0x30c88] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30c88] 	| (5)INFO 	|: Entered CSystem::_main()
+[10:05:08][0x30ca4] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[10:05:08][0x30ca4] 	| (5)INFO 	|: Output to console: 
+
+[10:05:08][0x30ca4] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30ca0] 	| (5)INFO 	|: Getting User Input: exit
+[00:56:12][0x30c88] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[00:56:12][0x30c88] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30c88] 	| (5)INFO 	|: CSystem::run() returned 0
+[00:56:12][0x163f0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Mon Apr 20 06:05:40 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Fri May 15 23:54:28 2037] --
+[10:00:00][0x30dd8] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[01:04:08][0x30d98] 	| (5)INFO 	|: Entered CSystem::init()
+[01:04:08][0x30d98] 	| (5)INFO 	|: Initialising System Class
+[01:04:08][0x30d98] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d98] 	| (5)INFO 	|: Program State changed: main
+[17:14:32][0x3520e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[07:14:00][0x7eb851c0] 	| (5)INFO 	|: Successfully opened python file: test.py
+[10:00:00][0x3520e0] 	| (5)INFO 	|: Running python script: test.py
+[03:45:57][0x30d98] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d98] 	| (5)INFO 	|: Entered CSystem::_main()
+[21:25:40][0x30db4] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[21:25:40][0x30db4] 	| (5)INFO 	|: Output to console: 
+
+[21:25:40][0x30db4] 	| (5)INFO 	|: Output to console: 	%s >
+[12:16:44][0x30db0] 	| (5)INFO 	|: Getting User Input: 
+[12:16:44][0x30d98] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln:  
+[09:59:59][0x30db4] 	| (5)INFO 	|: Output to console: 	%s >
+[02:13:45][0x30db0] 	| (5)INFO 	|: Getting User Input: 
+[23:52:36][0x30d98] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln:  
+[09:59:59][0x30db4] 	| (5)INFO 	|: Output to console: 	%s >
+[02:13:45][0x30db0] 	| (5)INFO 	|: Getting User Input: exit
+[23:52:36][0x30d98] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[14:56:08][0x30d98] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d98] 	| (5)INFO 	|: CSystem::run() returned 0
+[12:16:44][0x3520e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Fri May 15 23:54:28 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jun 20 00:43:32 2037] --
+[10:00:00][0x30dd8] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[21:09:28][0x30d98] 	| (5)INFO 	|: Entered CSystem::init()
+[21:09:28][0x30d98] 	| (5)INFO 	|: Initialising System Class
+[21:09:28][0x30d98] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d98] 	| (5)INFO 	|: Program State changed: main
+[13:26:16][0x2bb0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[08:22:04][0x7ee681c0] 	| (2)ERROR 	|: Unable to open python file: test.py
+[10:00:00][0x2bb0e0] 	| (5)INFO 	|: Running python script: test.py
+[17:35:56][0x2bb2a8] 	| (3)WARN 	|: Python file (test.py) has not been initialized
+[10:00:00][0x30d98] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d98] 	| (5)INFO 	|: Entered CSystem::_main()
+[17:31:00][0x30db4] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[17:31:00][0x30db4] 	| (5)INFO 	|: Output to console: 
+
+[17:31:00][0x30db4] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30db0] 	| (5)INFO 	|: Getting User Input: gpio
+[08:22:04][0x30d98] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[10:00:00][0x30d98] 	| (5)INFO 	|: Program State changed: gpio
+[08:22:04][0x30d98] 	| (5)INFO 	|: CSystem::_main() returned 0
+[08:22:04][0x30d98] 	| (5)INFO 	|: Entered CSystem::_main()
+[17:31:00][0x30db4] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[17:31:00][0x30db4] 	| (5)INFO 	|: Output to console: 
+
+[17:31:00][0x30db4] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:53][0x30db0] 	| (5)INFO 	|: Getting User Input: help
+[00:41:40][0x30d98] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: help 
+[00:36:20][0x30db4] 	| (5)INFO 	|: Output to console: add	- Add a handle for the specified GPIO-Pin
+		e.g. add:15
+
+[00:36:20][0x30db4] 	| (5)INFO 	|: Output to console: rem	- Remove the specified GPIO-Pin handle
+		e.g. rem:2
+
+[00:36:20][0x30db4] 	| (5)INFO 	|: Output to console: set	- 
+		e.g. set:4:value:1
+
+[00:36:20][0x30db4] 	| (5)INFO 	|: Output to console: get	- Get a the value of the specified GPIO-Pin Variable
+		command syntax is 'get:gpio_pin_number:variable_name'
+		accessable variables are: 'dir' (the direction of the gpio pin [in/out])
+					  'value' (the value of the gpio pin [voltage])
+		e.g. get:3:dir
+
+[00:36:20][0x30db4] 	| (5)INFO 	|: Output to console: exit	- 
+		e.g. exit
+
+[00:36:20][0x30db4] 	| (5)INFO 	|: Output to console: help	- 
+		e.g. help
+
+[22:06:04][0x30db4] 	| (5)INFO 	|: Output to console: 	%s >
+[09:31:02][0x30db0] 	| (5)INFO 	|: Getting User Input: add:17
+[00:41:40][0x30d98] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 17 
+[17:31:00][0x30db4] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[17:35:56][0x2f3ff0] 	| (5)INFO 	|: Input Class Initialised
+[17:35:56][0x2f3ff4] 	| (5)INFO 	|: Output class initialised
+[18:20:43][0x30db4] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[10:00:00][0x30db4] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x30db0] 	| (5)INFO 	|: Getting User Input: set:17:dir:nice
+[00:41:40][0x30d98] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 17 dir nice 
+[17:31:00][0x30db4] 	| (5)INFO 	|: Output to console: Invalid GPIO-Pin direction: %s
+
+[12:40:00][0x30db4] 	| (5)INFO 	|: Output to console: set	- 
+		e.g. set:4:value:1
+
+[22:06:04][0x30db4] 	| (5)INFO 	|: Output to console: 	%s >
+[09:31:02][0x30db0] 	| (5)INFO 	|: Getting User Input: set:17:dir:out
+[00:41:40][0x30d98] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 17 dir out 
+[09:38:54][0x30d98] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 17 dir 
+[12:40:00][0x30db4] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[10:00:00][0x30db4] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x30db0] 	| (5)INFO 	|: Getting User Input: get:17:dir
+[00:41:40][0x30d98] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 17 dir 
+[12:40:00][0x30db4] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[10:00:00][0x30db4] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x30db0] 	| (5)INFO 	|: Getting User Input: rem:17
+[00:41:40][0x30d98] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 17 
+[17:31:00][0x30db4] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[20:54:44][0x30db4] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:04][0x30db0] 	| (5)INFO 	|: Getting User Input: exit
+[00:41:40][0x30d98] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[10:00:00][0x30d98] 	| (5)INFO 	|: Program State changed: main
+[10:00:00][0x30d98] 	| (5)INFO 	|: CSystem::_main() returned 0
+[10:00:00][0x30d98] 	| (5)INFO 	|: Entered CSystem::_main()
+[17:31:00][0x30db4] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[17:31:00][0x30db4] 	| (5)INFO 	|: Output to console: 
+
+[17:31:00][0x30db4] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:53][0x30db0] 	| (5)INFO 	|: Getting User Input: exit
+[00:41:40][0x30d98] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[16:45:04][0x30d98] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d98] 	| (5)INFO 	|: CSystem::run() returned 0
+[08:22:04][0x2bb0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Sat Jun 20 00:43:32 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Mon May  4 04:36:04 2037] --
+[10:00:00][0x30de0] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[05:07:20][0x30da0] 	| (5)INFO 	|: Entered CSystem::init()
+[05:07:20][0x30da0] 	| (5)INFO 	|: Initialising System Class
+[05:07:20][0x30da0] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30da0] 	| (5)INFO 	|: Program State changed: main
+[10:56:56][0x5860e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[11:17:12][0x7ea8c1c0] 	| (5)INFO 	|: Successfully opened python file: py/test.py
+[10:00:00][0x5860e0] 	| (5)INFO 	|: Running python script: py/test.py
+[18:08:18][0x30da0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30da0] 	| (5)INFO 	|: Entered CSystem::_main()
+[01:28:52][0x30dbc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[01:28:52][0x30dbc] 	| (5)INFO 	|: Output to console: 
+
+[01:28:52][0x30dbc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30db8] 	| (5)INFO 	|: Getting User Input: exit
+[16:19:56][0x30da0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[16:19:56][0x30da0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30da0] 	| (5)INFO 	|: CSystem::run() returned 0
+[16:19:56][0x5860e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Mon May  4 04:36:04 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Tue Jun 30 01:56:04 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[08:51:20][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[08:51:20][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[08:51:20][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[07:55:36][0x1dd20e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[15:01:12][0x7ef3c1c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x1dd20e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[00:59:20][0x1dd22a8] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[05:12:52][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[05:12:52][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[05:12:52][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[20:03:56][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[20:03:56][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[05:37:52][0x1dd20e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Tue Jun 30 01:56:04 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Mon May  4 08:00:52 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[13:54:16][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[13:54:16][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[13:54:16][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[18:39:52][0x69f0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[20:04:08][0x7ea8f1c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x69f0e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[06:02:16][0x69f2a8] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[10:15:48][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[10:15:48][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[10:15:48][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[01:06:52][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[01:06:52][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[10:40:48][0x69f0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Mon May  4 08:00:52 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Thu Jul  2 07:24:36 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[20:26:48][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[20:26:48][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[20:26:48][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[18:12:08][0xd210e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[02:36:40][0x7ef6b1c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0xd210e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[00:53:47][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[16:48:20][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[16:48:20][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[16:48:20][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[07:39:24][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[07:39:24][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[07:39:24][0xd210e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Thu Jul  2 07:24:36 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Wed May  6 23:43:48 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[18:16:40][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[18:16:40][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[18:16:40][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[06:51:36][0x6e90e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[00:26:32][0x7eac71c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x6e90e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[07:08:19][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[14:38:12][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[14:38:12][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[14:38:12][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[05:29:16][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[05:29:16][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[05:29:16][0x6e90e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Wed May  6 23:43:48 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Apr 11 01:21:56 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[11:18:32][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[11:18:32][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[11:18:32][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[18:37:44][0xccd0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[17:28:24][0x7e8a41c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0xccd0e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[11:33:22][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[07:40:04][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[07:40:04][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[07:40:04][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[22:31:08][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[22:31:08][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[22:31:08][0xccd0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Sat Apr 11 01:21:56 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Mon Jun  8 23:37:24 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[18:20:56][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[18:20:56][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[18:20:56][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[12:05:12][0x1a9f0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[00:30:48][0x7ed7f1c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x1a9f0e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[07:07:10][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[14:42:28][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[14:42:28][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[14:42:28][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[05:33:32][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[05:33:32][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[05:33:32][0x1a9f0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Mon Jun  8 23:37:24 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sun Apr 12 01:15:32 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[01:55:20][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[01:55:20][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[01:55:20][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[03:18:16][0x29d0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[08:05:12][0x7e8b91c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x29d0e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[18:03:20][0x29d2a8] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[22:16:52][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[22:16:52][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[22:16:52][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[13:07:56][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[13:07:56][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[22:41:52][0x29d0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Sun Apr 12 01:15:32 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jun 20 10:57:56 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[12:22:32][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[12:22:32][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[12:22:32][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[11:14:00][0x16010e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[18:32:24][0x7ee711c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x16010e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[04:30:32][0x161af30] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[08:44:04][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[08:44:04][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[08:44:04][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: python
+[23:35:08][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: python 
+[09:59:59][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[02:13:45][0x30d40] 	| (5)INFO 	|: Getting User Input: exity
+[10:56:04][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exity 
+[09:59:59][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[02:13:45][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[10:56:04][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[03:57:52][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[09:09:04][0x16010e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Sat Jun 20 10:57:56 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Tue Apr 28 01:49:40 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[06:15:36][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[06:15:36][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[06:15:36][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[11:48:08][0xa240e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[12:25:28][0x7ea0b1c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0xa240e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[22:23:36][0xa242a8] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[02:37:08][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[02:37:08][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[02:37:08][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[17:28:12][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[17:28:12][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[03:02:08][0xa240e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Tue Apr 28 01:49:40 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Wed Jun 24 19:38:28 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[11:56:56][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[11:56:56][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[11:56:56][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[03:52:24][0x6920e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[18:06:48][0x7eecd1c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x6920e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[04:04:56][0x6d9a20] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[08:18:28][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[08:18:28][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[08:18:28][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[23:09:32][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[23:09:32][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[08:43:28][0x6920e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Wed Jun 24 19:38:28 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sun May 10 02:49:24 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[03:10:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[03:10:00][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[03:10:00][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[11:22:32][0x1ced0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[09:19:52][0x7eb091c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x1ced0e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[20:05:49][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[23:31:32][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[23:31:32][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[23:31:32][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[14:22:36][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[14:22:36][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[14:22:36][0x1ced0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Sun May 10 02:49:24 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Wed Jun 24 04:51:00 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[06:28:24][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[06:28:24][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[06:28:24][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[11:14:00][0x62f0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[12:38:16][0x7eec01c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x62f0e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[03:58:59][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[02:49:56][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[02:49:56][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[02:49:56][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[17:41:00][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[17:41:00][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[17:41:00][0x62f0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Wed Jun 24 04:51:00 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sun Jun 21 08:35:00 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[03:27:04][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[03:27:04][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[03:27:04][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[23:21:28][0x12d50e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[09:36:56][0x7ee841c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x12d50e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[19:35:04][0x132c8b8] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[23:48:36][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[23:48:36][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[23:48:36][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[14:39:40][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[14:39:40][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[00:13:36][0x12d50e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Sun Jun 21 08:35:00 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jun 27 13:37:56 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[21:52:08][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[21:52:08][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[21:52:08][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[06:49:28][0x1f8c0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[04:02:00][0x7ef071c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x1f8c0e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[14:00:08][0x1fd5ae0] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[18:13:40][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[18:13:40][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[18:13:40][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[09:04:44][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[09:04:44][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[18:38:40][0x1f8c0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Sat Jun 27 13:37:56 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Mon Jun 22 09:36:52 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[16:23:36][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[16:23:36][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[16:23:36][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[07:42:48][0x18b60e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[22:33:28][0x7ee9a1c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x18b60e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[08:31:36][0x18b62a8] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[12:45:08][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[12:45:08][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[12:45:08][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[03:36:12][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[03:36:12][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[13:10:08][0x18b60e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Mon Jun 22 09:36:52 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Apr 11 15:01:08 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[02:25:12][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[02:25:12][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[02:25:12][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[03:24:40][0x125a0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[08:35:04][0x7e8b01c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x125a0e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[20:58:08][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[22:46:44][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[22:46:44][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[22:46:44][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[13:37:48][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[13:37:48][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[13:37:48][0x125a0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Sat Apr 11 15:01:08 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Thu Jun 25 03:36:20 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[19:24:56][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[19:24:56][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[19:24:56][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[16:25:28][0x8580e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[01:34:48][0x7eed41c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x8580e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[21:46:26][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[15:46:28][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[15:46:28][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[15:46:28][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[06:37:32][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[06:37:32][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[06:37:32][0x8580e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Thu Jun 25 03:36:20 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Tue May 26 13:37:56 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[12:33:12][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[12:33:12][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[12:33:12][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[15:00:08][0x1cc60e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[18:43:04][0x7ec641c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x1cc60e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[04:41:12][0x1cfa740] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[08:54:44][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[08:54:44][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[08:54:44][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[23:45:48][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[23:45:48][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[09:19:44][0x1cc60e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Tue May 26 13:37:56 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jun  6 06:46:12 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[13:24:24][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[13:24:24][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[13:24:24][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[07:40:40][0x1c410e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[19:34:16][0x7ed461c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x1c410e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[05:32:24][0x1c412a8] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[09:45:56][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[09:45:56][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[09:45:56][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[00:37:00][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[00:37:00][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[10:10:56][0x1c410e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Sat Jun  6 06:46:12 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Apr 18 14:16:20 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[05:13:44][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[05:13:44][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[05:13:44][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[01:57:12][0x5690e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[11:23:36][0x7e9431c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x5690e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[21:21:44][0x5692a8] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[01:35:16][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[01:35:16][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[01:35:16][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[16:26:20][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[16:26:20][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[02:00:16][0x5690e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Sat Apr 18 14:16:20 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sun Apr 26 14:33:24 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[21:35:04][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[21:35:04][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[21:35:04][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[09:12:24][0xd040e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[03:44:56][0x7e9ec1c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0xd040e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[13:43:04][0xd4a6b0] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[17:56:36][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[17:56:36][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[17:56:36][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[08:47:40][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[08:47:40][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[18:21:36][0xd040e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Sun Apr 26 14:33:24 2037] --
+__________________________________________________

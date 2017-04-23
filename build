@@ -1,0 +1,52 @@
+#!/bin/bash
+
+help=$'Arguments for \'build\' bash script...\n\nArgument Options are 1 or 0 (true/false)\nArgument 1: Compile?\nArgument 2: Run?\nArgument 3: Clean Build?\n'
+
+if [ $# -ge 1 ]
+	then
+
+		if [ $# -ge 3 ]
+			then
+				if [ $3 -ge 1 ]
+					then
+						echo "Performing Clean Build..."
+						make clean
+						echo ""
+				fi
+		fi
+
+		if [ $1 -ge 1 ]
+			then
+				echo "Generating Make File (using gen_make.py script)..."
+
+				cd compiler
+				python3 gen_make.py > ../makefile
+				cd ..
+
+				echo "Compiling..."
+				make
+		fi
+
+		if [ $# -ge 2 ]
+			then
+				if [ $2 -ge 1 ]
+					then
+						cmdline=$(more compiler/_run_cmdline)
+						echo ""
+						echo "Running output with command line: $cmdline"
+						echo ""
+
+						cd output
+						./debug $cmdline
+						cd ..
+				fi
+		fi
+
+		if [ "$1" == "help" ]
+			then
+				echo "$help"
+		fi
+elif [ $# -eq 0 ]
+	then
+		echo "$help"
+fi
