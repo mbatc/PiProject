@@ -106,8 +106,8 @@ void CSystem::ProcessCMD(std::vector<std::string> cmdln)
 			m_io.Print("Adding GPIO-Pin handle ['%s']\n", cmdln[1].c_str());
 			if(m_gpio.addPin(cmdln[1]))
 			{
-				m_io.Print("Successfully retrieved GPIO-Pin handle [%p,'%s']\n", 
-					m_gpio.getPin(cmdln[1]), 
+				m_io.Print("Successfully retrieved GPIO-Pin handle [%p,'%s']\n",
+					m_gpio.getPin(cmdln[1]),
 					cmdln[1].c_str());
 			}
 			else
@@ -116,6 +116,26 @@ void CSystem::ProcessCMD(std::vector<std::string> cmdln)
 					m_gpio.getPin(cmdln[1]),
 					cmdln[1].c_str());
 			}
+		}
+		else if(!strcmp(cmdln[0].c_str(),_CMD_STATUS))
+		{
+			if(cmdln.size() != 2)
+			{
+				PrintHelp("gpio_status");
+				return;
+			}
+
+			CGPIOPin* _pin = m_gpio.getPin(cmdln[1]);
+			if(!_pin)
+			{
+				m_io.Print("GPIO-Pin handle ['%s'] has not been initialised", cmdln[1].c_str());
+			}
+
+			std::string active = "is active";
+			if(!_pin->HandleExists())
+				active = "is not active";
+
+			m_io.Print("GPIO-Pin handle[%p,'%s'] %s\n",_pin,cmdln[1].c_str(), active.c_str());
 		}
 		else if(!strcmp(cmdln[0].c_str(),_CMD_REMOVE))
 		{

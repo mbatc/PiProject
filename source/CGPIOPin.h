@@ -17,8 +17,8 @@ public:
 	CGPIOPin(string pin_num);
 	~CGPIOPin();
 
-	bool Export();
-	bool Unexport();
+	int Export();
+	int Unexport();
 
 	bool Init(std::string dir, std::string val);
 
@@ -37,6 +37,7 @@ public:
 	int		GetValI();
 	bool		GetValB();
 
+	bool		HandleExists();
 private:
 	bool		Set(string f, string val);
 

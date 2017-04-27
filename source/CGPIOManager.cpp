@@ -30,6 +30,12 @@ bool CGPIOManager::addPin(string num)
 	}
 
 	CGPIOPin* add = new CGPIOPin(num);
+	if(!add->HandleExists())
+	{
+		delete add;
+		return false;
+	}
+
 	m_ppPin.push_back(add);
 	return true;
 }

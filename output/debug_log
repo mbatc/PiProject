@@ -2544,3 +2544,1916 @@ __________________________________________
 [18:21:36][0xd040e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
 -- END OF DEBUG LOG [Sun Apr 26 14:33:24 2037] --
 __________________________________________________
+__________________________________________
+-- DEBUGLOG [Tue Apr 21 10:32:52 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[15:53:44][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[15:53:44][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[15:53:44][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[14:38:48][0x38f0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[22:03:36][0x7e97f1e0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x38f0e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[08:01:44][0x38f2a8] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[12:15:16][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[12:15:16][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[12:15:16][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: gpio
+[03:06:20][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: gpio
+[03:06:20][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[03:06:20][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[12:15:16][0x30d44] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[12:15:16][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[12:15:16][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[12:23:49][0x30d40] 	| (5)INFO 	|: Getting User Input: help
+[10:31:00][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: help 
+[10:25:40][0x30d44] 	| (5)INFO 	|: Output to console: add	- Add a handle for the specified GPIO-Pin
+		e.g. add:15
+
+[10:25:40][0x30d44] 	| (5)INFO 	|: Output to console: rem	- Remove the specified GPIO-Pin handle
+		e.g. rem:2
+
+[10:25:40][0x30d44] 	| (5)INFO 	|: Output to console: set	- 
+		e.g. set:4:value:1
+
+[10:25:40][0x30d44] 	| (5)INFO 	|: Output to console: get	- Get a the value of the specified GPIO-Pin Variable
+		command syntax is 'get:gpio_pin_number:variable_name'
+		accessable variables are: 'dir' (the direction of the gpio pin [in/out])
+					  'value' (the value of the gpio pin [voltage])
+		e.g. get:3:dir
+
+[10:25:40][0x30d44] 	| (5)INFO 	|: Output to console: exit	- 
+		e.g. exit
+
+[10:25:40][0x30d44] 	| (5)INFO 	|: Output to console: help	- 
+		e.g. help
+
+[22:04:12][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[19:02:44][0x30d40] 	| (5)INFO 	|: Getting User Input: add:15
+[10:31:00][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 15 
+[12:15:16][0x30d44] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[17:34:04][0x616018] 	| (5)INFO 	|: Input Class Initialised
+[17:34:04][0x61601c] 	| (5)INFO 	|: Output class initialised
+[18:20:43][0x30d44] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[10:00:00][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x30d40] 	| (5)INFO 	|: Getting User Input: get:15:value
+[10:31:00][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 15 value 
+[10:35:00][0x30d44] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[12:41:32][0x30d44] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[10:00:00][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x30d40] 	| (5)INFO 	|: Getting User Input: get:15:dir
+[10:31:00][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 15 dir 
+[07:24:16][0x30d44] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[10:00:00][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x30d40] 	| (5)INFO 	|: Getting User Input: rem:15
+[10:31:00][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 15 
+[12:15:16][0x30d44] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[15:39:00][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[16:10:01][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[10:31:00][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[10:00:00][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[12:15:16][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[12:15:16][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[12:15:16][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[12:23:49][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[10:31:00][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[06:51:52][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[12:40:16][0x38f0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Tue Apr 21 10:32:52 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sun May 31 09:41:08 2037] --
+[10:00:00][0x30d68] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[15:21:44][0x30d28] 	| (5)INFO 	|: Entered CSystem::init()
+[15:21:44][0x30d28] 	| (5)INFO 	|: Initialising System Class
+[15:21:44][0x30d28] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[05:41:12][0x17a20e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[21:31:36][0x7ecca1c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x17a20e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[07:29:44][0x17f7ff0] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[11:43:16][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[11:43:16][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[11:43:16][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x30d40] 	| (5)INFO 	|: Getting User Input: pgio
+[02:34:20][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: pgio 
+[09:59:59][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[02:13:45][0x30d40] 	| (5)INFO 	|: Getting User Input: gpio
+[09:39:16][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: gpio
+[10:00:01][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[10:00:01][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[11:43:16][0x30d44] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[11:43:16][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[11:43:16][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[12:23:47][0x30d40] 	| (5)INFO 	|: Getting User Input: add:18
+[09:39:16][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 18 
+[11:43:16][0x30d44] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[17:34:04][0x1a2ff10] 	| (5)INFO 	|: Input Class Initialised
+[17:34:04][0x1a2ff14] 	| (5)INFO 	|: Output class initialised
+[18:20:43][0x30d44] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[10:00:00][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x30d40] 	| (5)INFO 	|: Getting User Input: set:18:dir:out
+[09:39:16][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 18 dir out 
+[09:38:54][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 18 dir 
+[06:52:16][0x30d44] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[10:00:00][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x30d40] 	| (5)INFO 	|: Getting User Input: get:18:value
+[09:39:16][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 18 value 
+[06:52:16][0x30d44] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[12:09:32][0x30d44] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[10:00:00][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[09:39:16][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[10:00:00][0x30d28] 	| (5)INFO 	|: Program State changed: main
+[10:00:00][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[10:00:00][0x30d28] 	| (5)INFO 	|: Entered CSystem::_main()
+[11:43:16][0x30d44] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[11:43:16][0x30d44] 	| (5)INFO 	|: Output to console: 
+
+[11:43:16][0x30d44] 	| (5)INFO 	|: Output to console: 	%s >
+[12:23:47][0x30d40] 	| (5)INFO 	|: Getting User Input: exit
+[09:39:16][0x30d28] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[20:13:36][0x30d28] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x30d28] 	| (5)INFO 	|: CSystem::run() returned 0
+[12:08:16][0x17a20e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Sun May 31 09:41:08 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Tue Apr 14 05:35:48 2037] --
+[10:00:00][0x31420] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[09:34:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::init()
+[09:34:00][0x313e0] 	| (5)INFO 	|: Initialising System Class
+[09:34:00][0x313e0] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[14:21:44][0x17fe0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[15:43:52][0x7e8e71c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x17fe0e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[01:42:00][0x17fe2a8] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[05:55:32][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[05:55:32][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[05:55:32][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x313f8] 	| (5)INFO 	|: Getting User Input: Cgpio
+[20:46:36][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: Cgpio 
+[09:59:59][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[02:13:45][0x313f8] 	| (5)INFO 	|: Getting User Input: gpio
+[05:33:56][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: gpio
+[10:00:01][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[10:00:01][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[05:55:32][0x313fc] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[05:55:32][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[05:55:32][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[07:27:17][0x313f8] 	| (5)INFO 	|: Getting User Input: add:22
+[05:33:56][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 22 
+[05:55:32][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[05:55:32][0x1a8bd68] 	| (5)INFO 	|: Input Class Initialised
+[05:55:32][0x1a8bd6c] 	| (5)INFO 	|: Output class initialised
+[10:00:00][0x1a8bd60] 	| (3)WARN 	|: CGPIOPin Export()failed - Handle already exists
+[10:00:00][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[10:00:00][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x313f8] 	| (5)INFO 	|: Getting User Input: get:22:dir
+[05:33:56][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 22 dir 
+[05:38:28][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[10:00:00][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[05:33:56][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[10:00:00][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[05:55:32][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[05:55:32][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[05:55:32][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[07:27:17][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[05:33:56][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[16:50:40][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x313e0] 	| (5)INFO 	|: CSystem::run() returned 0
+[06:20:32][0x17fe0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Tue Apr 14 05:35:48 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Thu Apr 30 17:50:44 2037] --
+[10:00:00][0x31420] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[06:51:52][0x313e0] 	| (5)INFO 	|: Entered CSystem::init()
+[06:51:52][0x313e0] 	| (5)INFO 	|: Initialising System Class
+[06:51:52][0x313e0] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[22:58:00][0xf9e0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[13:01:44][0x7ea43600] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0xf9e0e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[22:59:52][0xfede20] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[03:13:24][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[03:13:24][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[03:13:24][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x313f8] 	| (5)INFO 	|: Getting User Input: pgio
+[18:04:28][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: pgio 
+[09:59:59][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[02:13:45][0x313f8] 	| (5)INFO 	|: Getting User Input: gpio
+[17:48:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: gpio
+[10:00:01][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[10:00:01][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[03:13:24][0x313fc] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[03:13:24][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[03:13:24][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[21:55:31][0x313f8] 	| (5)INFO 	|: Getting User Input: add:22
+[17:48:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 22 
+[03:13:24][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[03:13:24][0x10573b8] 	| (5)INFO 	|: Input Class Initialised
+[03:13:24][0x10573bc] 	| (5)INFO 	|: Output class initialised
+[10:00:00][0x10573b0] 	| (3)WARN 	|: CGPIOPin Export()failed - Handle already exists
+[10:00:00][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[10:00:00][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x313f8] 	| (5)INFO 	|: Getting User Input: get:22:dir
+[17:48:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 22 dir 
+[17:53:24][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[10:00:00][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x313f8] 	| (5)INFO 	|: Getting User Input: get:22:value
+[17:48:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 22 value 
+[22:22:24][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[03:39:40][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[10:00:00][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x313f8] 	| (5)INFO 	|: Getting User Input: set:22:dir:out
+[17:48:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 22 dir out 
+[09:27:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 22 dir 
+[22:22:24][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[10:00:00][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[17:48:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[10:00:00][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[03:13:24][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[03:13:24][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[03:13:24][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[21:55:31][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[17:48:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[15:13:04][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x313e0] 	| (5)INFO 	|: CSystem::run() returned 0
+[03:38:24][0xf9e0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Thu Apr 30 17:50:44 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Jun 20 03:18:12 2037] --
+[10:00:00][0x31420] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[11:14:16][0x313e0] 	| (5)INFO 	|: Entered CSystem::init()
+[11:14:16][0x313e0] 	| (5)INFO 	|: Initialising System Class
+[11:14:16][0x313e0] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[20:18:00][0x1d90e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[17:24:08][0x7ee6a600] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x1d90e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[03:22:16][0x2265e0] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[07:35:48][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[07:35:48][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[07:35:48][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x313f8] 	| (5)INFO 	|: Getting User Input: gpio
+[22:26:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: gpio
+[22:26:52][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[22:26:52][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[07:35:48][0x313fc] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[07:35:48][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[07:35:48][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[03:41:09][0x313f8] 	| (5)INFO 	|: Getting User Input: add:22
+[03:16:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 22 
+[07:35:48][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[07:35:48][0x3374a8] 	| (5)INFO 	|: Input Class Initialised
+[07:35:48][0x3374ac] 	| (5)INFO 	|: Output class initialised
+[17:24:08][0x3374a0] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[10:00:00][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x313f8] 	| (5)INFO 	|: Getting User Input: get:22:dir
+[03:16:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 22 dir 
+[07:35:48][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[10:00:00][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x313f8] 	| (5)INFO 	|: Getting User Input: get:22:value
+[03:16:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 22 value 
+[07:35:48][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[08:02:04][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[10:00:00][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x313f8] 	| (5)INFO 	|: Getting User Input: set:22:dir:out
+[03:16:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 22 dir out 
+[10:00:00][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 22 dir 
+[07:35:48][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[03:21:20][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[04:34:25][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[03:16:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[10:00:00][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[07:35:48][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[07:35:48][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[07:35:48][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[03:41:09][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[03:16:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[17:24:24][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x313e0] 	| (5)INFO 	|: CSystem::run() returned 0
+[08:00:48][0x1d90e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Sat Jun 20 03:18:12 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sun Jun 21 11:09:40 2037] --
+[10:00:00][0x31420] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[18:03:52][0x313e0] 	| (5)INFO 	|: Entered CSystem::init()
+[18:03:52][0x313e0] 	| (5)INFO 	|: Initialising System Class
+[18:03:52][0x313e0] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[00:57:28][0x1c260e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[00:13:44][0x7ee86600] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x1c260e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[10:11:52][0x1c7d628] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[14:25:24][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[14:25:24][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[14:25:24][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x313f8] 	| (5)INFO 	|: Getting User Input: gpio
+[05:16:28][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: gpio
+[05:16:28][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[05:16:28][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[14:25:24][0x313fc] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[14:25:24][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[14:25:24][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[21:55:33][0x313f8] 	| (5)INFO 	|: Getting User Input: add:22
+[11:07:48][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 22 
+[14:25:24][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[14:25:24][0x1eb3cc0] 	| (5)INFO 	|: Input Class Initialised
+[14:25:24][0x1eb3cc4] 	| (5)INFO 	|: Output class initialised
+[00:13:44][0x1eb3cb8] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[10:00:00][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x313f8] 	| (5)INFO 	|: Getting User Input: get:22:dir
+[11:07:48][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 22 dir 
+[14:25:24][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[10:00:00][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[11:07:48][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[10:00:00][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[14:25:24][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[14:25:24][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[14:25:24][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[21:55:33][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[11:07:48][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[17:28:40][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x313e0] 	| (5)INFO 	|: CSystem::run() returned 0
+[14:50:24][0x1c260e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Sun Jun 21 11:09:40 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Mon May 18 07:40:04 2037] --
+[10:00:00][0x31420] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[16:00:08][0x313e0] 	| (5)INFO 	|: Entered CSystem::init()
+[16:00:08][0x313e0] 	| (5)INFO 	|: Initialising System Class
+[16:00:08][0x313e0] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[05:34:48][0x12710e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[22:10:00][0x7ebb61e0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x12710e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[08:08:08][0x12712a8] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[12:21:40][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[12:21:40][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[12:21:40][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x313f8] 	| (5)INFO 	|: Getting User Input: gpio
+[03:12:44][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: gpio
+[03:12:44][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[03:12:44][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[12:21:40][0x313fc] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[12:21:40][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[12:21:40][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:58:57][0x313f8] 	| (5)INFO 	|: Getting User Input: add:22
+[17:28:36][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 22 
+[12:21:40][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[12:21:40][0x14f8578] 	| (5)INFO 	|: Input Class Initialised
+[12:21:40][0x14f857c] 	| (5)INFO 	|: Output class initialised
+[22:10:00][0x14f8570] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: status:22
+[17:28:36][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: status 22 
+[12:21:40][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'] %s
+
+[18:02:00][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:54][0x313f8] 	| (5)INFO 	|: Getting User Input: get:22:dir
+[17:28:36][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 22 dir 
+[12:21:40][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[21:58:40][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:59:04][0x313f8] 	| (5)INFO 	|: Getting User Input: set:22:dir
+[17:28:36][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 22 dir 
+[07:32:36][0x313fc] 	| (5)INFO 	|: Output to console: set	- 
+		e.g. set:4:value:1
+
+[07:38:16][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[12:23:52][0x313f8] 	| (5)INFO 	|: Getting User Input: set:22:dir:out
+[17:28:36][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 22 dir out 
+[10:00:00][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 22 dir 
+[12:21:40][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[13:46:32][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[07:27:18][0x313f8] 	| (5)INFO 	|: Getting User Input: set:22:value:1
+[17:28:36][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 22 value 1 
+[09:26:40][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 22 value 
+[12:21:40][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[12:47:56][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[05:38:20][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[04:34:32][0x313f8] 	| (5)INFO 	|: Getting User Input: set:22:value:0
+[17:28:36][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 22 value 0 
+[09:26:46][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 22 value 
+[12:21:40][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[12:21:40][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[05:14:52][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[19:51:48][0x313f8] 	| (5)INFO 	|: Getting User Input: get:22:dir
+[17:28:36][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 22 dir 
+[12:21:40][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[21:58:40][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:59:04][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[17:28:36][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[17:56:48][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[17:56:48][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[12:21:40][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[12:21:40][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[12:21:40][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:58:57][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[17:28:36][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[10:00:00][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x313e0] 	| (5)INFO 	|: CSystem::run() returned 0
+[12:46:40][0x12710e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Mon May 18 07:40:04 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sun Apr  5 19:22:28 2037] --
+[10:00:00][0x31420] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[11:37:44][0x313e0] 	| (5)INFO 	|: Entered CSystem::init()
+[11:37:44][0x313e0] 	| (5)INFO 	|: Initialising System Class
+[11:37:44][0x313e0] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[03:22:32][0x18880e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[17:47:36][0x7e835600] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x18880e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[03:45:44][0x18882a8] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[07:59:16][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[07:59:16][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[07:59:16][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[22:50:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[22:50:20][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x313e0] 	| (5)INFO 	|: CSystem::run() returned 0
+[08:24:16][0x18880e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Sun Apr  5 19:22:28 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Tue May 12 14:17:24 2037] --
+[10:00:00][0x31420] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[23:45:12][0x313e0] 	| (5)INFO 	|: Entered CSystem::init()
+[23:45:12][0x313e0] 	| (5)INFO 	|: Initialising System Class
+[23:45:12][0x313e0] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[04:18:00][0x39b0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[05:55:04][0x7eb3d600] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x39b0e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[15:53:12][0x3be800] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[20:06:44][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[20:06:44][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[20:06:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x313f8] 	| (5)INFO 	|: Getting User Input: gpio
+[10:57:48][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: gpio
+[10:57:48][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[10:57:48][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[20:06:44][0x313fc] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[20:06:44][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[20:06:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:06][0x313f8] 	| (5)INFO 	|: Getting User Input: add:22
+[01:13:40][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 22 
+[20:06:44][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[20:06:44][0x4b3fd0] 	| (5)INFO 	|: Input Class Initialised
+[20:06:44][0x4b3fd4] 	| (5)INFO 	|: Output class initialised
+[10:00:36][0x4b3fd4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[13:46:36][0x4b3fc8] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x4b3fd4] 	| (5)INFO 	|: Output to console: %s
+
+[10:00:00][0x4b3fd4] 	| (5)INFO 	|: Output to console: %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: set:22:dir:out
+[01:13:40][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 22 dir out 
+[10:21:20][0x4b3fd4] 	| (5)INFO 	|: Output to console: %s
+
+[18:52:44][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 22 dir 
+[12:34:44][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[14:13:20][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[04:34:27][0x313f8] 	| (5)INFO 	|: Getting User Input: set:22:value:1
+[01:13:40][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 22 value 1 
+[10:21:20][0x4b3fd4] 	| (5)INFO 	|: Output to console: %s
+
+[18:52:44][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 22 value 
+[12:34:44][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[20:33:00][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[02:04:52][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[19:51:48][0x313f8] 	| (5)INFO 	|: Getting User Input: set:22:value:0
+[01:13:40][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 22 value 0 
+[10:21:20][0x4b3fd4] 	| (5)INFO 	|: Output to console: %s
+
+[18:52:44][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 22 value 
+[12:34:44][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[12:34:44][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[10:12:04][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[09:30:58][0x313f8] 	| (5)INFO 	|: Getting User Input: rem:22
+[01:13:40][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 22 
+[20:06:44][0x313fc] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[11:52:08][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[02:52:02][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[01:13:40][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[17:56:48][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[17:56:48][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[20:06:44][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[20:06:44][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[20:06:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:06][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[01:13:40][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[10:00:00][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x313e0] 	| (5)INFO 	|: CSystem::run() returned 0
+[20:31:44][0x39b0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Tue May 12 14:17:24 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Wed Jun  3 17:37:56 2037] --
+[10:00:00][0x31420] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[20:37:28][0x313e0] 	| (5)INFO 	|: Entered CSystem::init()
+[20:37:28][0x313e0] 	| (5)INFO 	|: Initialising System Class
+[20:37:28][0x313e0] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[13:28:24][0xf020e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[02:47:20][0x7ed10600] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0xf020e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[12:45:28][0xf50268] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[16:59:00][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[16:59:00][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[16:59:00][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x313f8] 	| (5)INFO 	|: Getting User Input: gpio
+[07:50:04][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: gpio
+[07:50:04][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[07:50:04][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[16:59:00][0x313fc] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[16:59:00][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[16:59:00][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:10:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:22
+[22:05:56][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 22 
+[16:59:00][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[16:59:00][0x106ec58] 	| (5)INFO 	|: Input Class Initialised
+[16:59:00][0x106ec5c] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x106ec5c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:38:52][0x106ec50] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x106ec5c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x106ec5c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: set:22:dir:out
+[22:05:56][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 22 dir out 
+[07:13:36][0x106ec5c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[05:49:32][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 22 dir 
+[09:27:00][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[17:33:52][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[19:51:47][0x313f8] 	| (5)INFO 	|: Getting User Input: set:22:value:1
+[22:05:56][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 22 value 1 
+[07:13:36][0x106ec5c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[05:49:32][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 22 value 
+[09:27:00][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[17:25:16][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[08:17:00][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:59][0x313f8] 	| (5)INFO 	|: Getting User Input: set:22:value:0
+[22:05:56][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 22 value 0 
+[07:13:36][0x106ec5c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[05:49:32][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 22 value 
+[09:27:00][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[09:27:00][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[14:15:48][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[03:41:09][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[22:05:56][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[17:56:48][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[17:56:48][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[16:59:00][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[16:59:00][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[16:59:00][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:10:01][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[22:05:56][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[10:00:00][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x313e0] 	| (5)INFO 	|: CSystem::run() returned 0
+[17:24:00][0xf020e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Wed Jun  3 17:37:56 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Wed May 20 04:01:56 2037] --
+[10:00:00][0x31420] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[16:30:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::init()
+[16:30:00][0x313e0] 	| (5)INFO 	|: Initialising System Class
+[16:30:00][0x313e0] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[04:52:08][0x121c0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[22:39:52][0x7ebdd1c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x121c0e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[08:38:00][0x121c2a8] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[12:51:32][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[12:51:32][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[12:51:32][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[03:42:36][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[03:42:36][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x313e0] 	| (5)INFO 	|: CSystem::run() returned 0
+[13:16:32][0x121c0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Wed May 20 04:01:56 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sat Apr 25 04:43:32 2037] --
+[10:00:00][0x31420] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[06:34:48][0x313e0] 	| (5)INFO 	|: Entered CSystem::init()
+[06:34:48][0x313e0] 	| (5)INFO 	|: Initialising System Class
+[06:34:48][0x313e0] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[12:32:56][0x117a0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[12:44:40][0x7e9ce600] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x117a0e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[22:42:48][0x117a2a8] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x313f8] 	| (5)INFO 	|: Getting User Input: gpio
+[17:47:24][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: gpio
+[17:47:24][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[17:47:24][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[04:34:30][0x313f8] 	| (5)INFO 	|: Getting User Input: add:1
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 1 
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:56:20][0x14069c8] 	| (5)INFO 	|: Input Class Initialised
+[02:56:20][0x14069cc] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x14069cc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[20:36:12][0x14069c0] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x14069cc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x14069cc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:2
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:56:20][0x1407728] 	| (5)INFO 	|: Input Class Initialised
+[02:56:20][0x140772c] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x140772c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1407720] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x140772c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x140772c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:3
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 3 
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:56:20][0x12b9fe0] 	| (5)INFO 	|: Input Class Initialised
+[02:56:20][0x12b9fe4] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x12b9fe4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x12b9fd8] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x12b9fe4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x12b9fe4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:4
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 4 
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:56:20][0x12d3c98] 	| (5)INFO 	|: Input Class Initialised
+[02:56:20][0x12d3c9c] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x12d3c9c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x12d3c90] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x12d3c9c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x12d3c9c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:5
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 5 
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:56:20][0x1407ef8] 	| (5)INFO 	|: Input Class Initialised
+[02:56:20][0x1407efc] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1407efc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1407ef0] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1407efc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1407efc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:6
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 6 
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:56:20][0x11cfc08] 	| (5)INFO 	|: Input Class Initialised
+[02:56:20][0x11cfc0c] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x11cfc0c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x11cfc00] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x11cfc0c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x11cfc0c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:7
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 7 
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:56:20][0x11da250] 	| (5)INFO 	|: Input Class Initialised
+[02:56:20][0x11da254] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x11da254] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x11da248] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x11da254] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x11da254] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:8
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 8 
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:56:20][0x12dc330] 	| (5)INFO 	|: Input Class Initialised
+[02:56:20][0x12dc334] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x12dc334] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x12dc328] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x12dc334] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x12dc334] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:9
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 9 
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:56:20][0x123d590] 	| (5)INFO 	|: Input Class Initialised
+[02:56:20][0x123d594] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x123d594] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x123d588] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x123d594] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x123d594] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:10
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 10 
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:56:20][0x1293f68] 	| (5)INFO 	|: Input Class Initialised
+[02:56:20][0x1293f6c] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1293f6c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1293f60] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1293f6c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1293f6c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:11
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 11 
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:56:20][0x1299d20] 	| (5)INFO 	|: Input Class Initialised
+[02:56:20][0x1299d24] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1299d24] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1299d18] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1299d24] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1299d24] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:12
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 12 
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:56:20][0x12dd7c0] 	| (5)INFO 	|: Input Class Initialised
+[02:56:20][0x12dd7c4] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x12dd7c4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x12dd7b8] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x12dd7c4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x12dd7c4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: set:1:dir:out
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 1 dir out 
+[17:10:56][0x14069cc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 1 dir 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[04:39:28][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[15:16:41][0x313f8] 	| (5)INFO 	|: Getting User Input: set:2:dir:out
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 2 dir out 
+[17:10:56][0x140772c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 2 dir 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[04:39:28][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[15:16:41][0x313f8] 	| (5)INFO 	|: Getting User Input: set:3:dir:out
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 3 dir out 
+[17:10:56][0x12b9fe4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 3 dir 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[04:39:28][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[15:16:41][0x313f8] 	| (5)INFO 	|: Getting User Input: set:4:dir:out
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 4 dir out 
+[17:10:56][0x12d3c9c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 4 dir 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[04:39:28][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[15:16:41][0x313f8] 	| (5)INFO 	|: Getting User Input: set:5:dir:out
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 5 dir out 
+[17:10:56][0x1407efc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 5 dir 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[04:39:28][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[15:16:41][0x313f8] 	| (5)INFO 	|: Getting User Input: set:6:dir:out
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 6 dir out 
+[17:10:56][0x11cfc0c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 6 dir 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[04:39:28][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[15:16:41][0x313f8] 	| (5)INFO 	|: Getting User Input: set:7:dir:out
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 7 dir out 
+[17:10:56][0x11da254] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 7 dir 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[04:39:28][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[15:16:41][0x313f8] 	| (5)INFO 	|: Getting User Input: set:8:dir:out
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 8 dir out 
+[17:10:56][0x12dc334] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 8 dir 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[04:39:28][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[15:16:41][0x313f8] 	| (5)INFO 	|: Getting User Input: set:9:dir:out
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 9 dir out 
+[17:10:56][0x123d594] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 9 dir 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[04:39:28][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[15:16:41][0x313f8] 	| (5)INFO 	|: Getting User Input: set:10:dir:out
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 10 dir out 
+[17:10:56][0x1293f6c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 10 dir 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[04:39:28][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[15:16:41][0x313f8] 	| (5)INFO 	|: Getting User Input: set:11:dir:out
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 11 dir out 
+[17:10:56][0x1299d24] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 11 dir 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[04:39:28][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[15:16:41][0x313f8] 	| (5)INFO 	|: Getting User Input: set:12:dir:out
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 12 dir out 
+[17:10:56][0x12dd7c4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 12 dir 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[04:39:28][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[15:16:41][0x313f8] 	| (5)INFO 	|: Getting User Input: set:12:value:1
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 12 value 1 
+[17:10:56][0x12dd7c4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 12 value 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[03:22:36][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[14:21:16][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[12:23:45][0x313f8] 	| (5)INFO 	|: Getting User Input: set:1:value:1
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 1 value 1 
+[17:10:56][0x14069cc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 1 value 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[12:55:08][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[02:52:05][0x313f8] 	| (5)INFO 	|: Getting User Input: set:6:value:1
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 6 value 1 
+[17:10:56][0x11cfc0c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 6 value 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[14:21:16][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[12:23:45][0x313f8] 	| (5)INFO 	|: Getting User Input: set:6:value:0
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 6 value 0 
+[17:10:56][0x11cfc0c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 6 value 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[12:55:08][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[02:52:05][0x313f8] 	| (5)INFO 	|: Getting User Input: set:12:value:0
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 12 value 0 
+[17:10:56][0x12dd7c4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 12 value 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[14:21:16][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[12:23:45][0x313f8] 	| (5)INFO 	|: Getting User Input: set:2:value:1
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 2 value 1 
+[17:10:56][0x140772c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 2 value 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[12:55:08][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[02:52:05][0x313f8] 	| (5)INFO 	|: Getting User Input: set:3:value:1
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 3 value 1 
+[17:10:56][0x12b9fe4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 3 value 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[14:21:16][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[12:23:45][0x313f8] 	| (5)INFO 	|: Getting User Input: set:4:value:1
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 4 value 1 
+[17:10:56][0x12d3c9c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 4 value 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[12:55:08][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[02:52:05][0x313f8] 	| (5)INFO 	|: Getting User Input: set:5:value:1
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 5 value 1 
+[17:10:56][0x1407efc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 5 value 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[14:21:16][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[12:23:45][0x313f8] 	| (5)INFO 	|: Getting User Input: set:6:value:1
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 6 value 1 
+[17:10:56][0x11cfc0c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 6 value 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[12:55:08][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[02:52:05][0x313f8] 	| (5)INFO 	|: Getting User Input: set:7:value:1
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 7 value 1 
+[17:10:56][0x11da254] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 7 value 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[14:21:16][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[12:23:45][0x313f8] 	| (5)INFO 	|: Getting User Input: set:8:value:1
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 8 value 1 
+[17:10:56][0x12dc334] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 8 value 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[12:55:08][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[02:52:05][0x313f8] 	| (5)INFO 	|: Getting User Input: set:9:value:1
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 9 value 1 
+[17:10:56][0x123d594] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 9 value 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[14:21:16][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[12:23:45][0x313f8] 	| (5)INFO 	|: Getting User Input: set:9:value:0
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 9 value 0 
+[17:10:56][0x123d594] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 9 value 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[12:55:08][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[02:52:05][0x313f8] 	| (5)INFO 	|: Getting User Input: set:8:value:0
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 8 value 0 
+[17:10:56][0x12dc334] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 8 value 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[14:21:16][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[12:23:45][0x313f8] 	| (5)INFO 	|: Getting User Input: set:6:value:0
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 6 value 0 
+[17:10:56][0x11cfc0c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 6 value 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[12:55:08][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[02:52:05][0x313f8] 	| (5)INFO 	|: Getting User Input: set:11:value:1
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 11 value 1 
+[17:10:56][0x1299d24] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 11 value 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[14:21:16][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[12:23:45][0x313f8] 	| (5)INFO 	|: Getting User Input: set:10:value:1
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 10 value 1 
+[17:10:56][0x1293f6c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[09:12:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 10 value 
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[19:24:20][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[12:55:08][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[02:52:05][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[17:56:48][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[17:56:48][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[02:56:20][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[04:34:30][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[08:03:16][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[10:00:00][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x313e0] 	| (5)INFO 	|: CSystem::run() returned 0
+[03:21:20][0x117a0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Sat Apr 25 04:43:32 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Thu May 14 01:15:32 2037] --
+[10:00:00][0x31420] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[20:01:12][0x313e0] 	| (5)INFO 	|: Entered CSystem::init()
+[20:01:12][0x313e0] 	| (5)INFO 	|: Initialising System Class
+[20:01:12][0x313e0] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[09:20:56][0x41e0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[02:11:04][0x7eb5c1c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x41e0e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[12:09:12][0x41e2a8] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[16:22:44][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[16:22:44][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[16:22:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[07:13:48][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[07:13:48][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x313e0] 	| (5)INFO 	|: CSystem::run() returned 0
+[16:47:44][0x41e0e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Thu May 14 01:15:32 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Sun Jul  5 22:11:00 2037] --
+[10:00:00][0x31420] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[07:53:44][0x313e0] 	| (5)INFO 	|: Entered CSystem::init()
+[07:53:44][0x313e0] 	| (5)INFO 	|: Initialising System Class
+[07:53:44][0x313e0] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[16:10:32][0x1bdf0e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[14:03:36][0x7efb7600] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x1bdf0e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[00:01:44][0x1c29038] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x313f8] 	| (5)INFO 	|: Getting User Input: gpio
+[19:06:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: gpio
+[19:06:20][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[19:06:20][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[12:23:49][0x313f8] 	| (5)INFO 	|: Getting User Input: add:2
+[09:22:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[04:15:16][0x1e66408] 	| (5)INFO 	|: Input Class Initialised
+[04:15:16][0x1e6640c] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1e6640c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[21:55:08][0x1e66400] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1e6640c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1e6640c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: set:2:value:0
+[09:22:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 2 value 0 
+[18:29:52][0x1e6640c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[00:03:24][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 2 value 
+[20:43:16][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value_raw: %s
+
+[04:41:32][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].value: %s
+
+[18:36:52][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[19:51:50][0x313f8] 	| (5)INFO 	|: Getting User Input: set:2:dir:out
+[09:22:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 2 dir out 
+[18:29:52][0x1e6640c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[00:03:24][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 2 dir 
+[20:43:16][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[22:06:56][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[13:12:54][0x313f8] 	| (5)INFO 	|: Getting User Input: add:3
+[09:22:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 3 
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[04:15:16][0x1c243a0] 	| (5)INFO 	|: Input Class Initialised
+[04:15:16][0x1c243a4] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1c243a4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1c24398] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1c243a4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1c243a4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: set:3:dir:out
+[09:22:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 3 dir out 
+[18:29:52][0x1c243a4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[02:32:36][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 3 dir 
+[20:43:16][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[22:06:56][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[13:12:54][0x313f8] 	| (5)INFO 	|: Getting User Input: add:4
+[09:22:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 4 
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[04:15:16][0x1e6cc70] 	| (5)INFO 	|: Input Class Initialised
+[04:15:16][0x1e6cc74] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1e6cc74] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1e6cc68] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1e6cc74] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1e6cc74] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:5
+[09:22:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 5 
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[04:15:16][0x1e6b930] 	| (5)INFO 	|: Input Class Initialised
+[04:15:16][0x1e6b934] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1e6b934] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1e6b928] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1e6b934] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1e6b934] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:6
+[09:22:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 6 
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[04:15:16][0x1c2c5b8] 	| (5)INFO 	|: Input Class Initialised
+[04:15:16][0x1c2c5bc] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1c2c5bc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1c2c5b0] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1c2c5bc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1c2c5bc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:7
+[09:22:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 7 
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[04:15:16][0x1ca1d80] 	| (5)INFO 	|: Input Class Initialised
+[04:15:16][0x1ca1d84] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1ca1d84] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1ca1d78] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1ca1d84] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1ca1d84] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:8
+[09:22:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 8 
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[04:15:16][0x1c2d1d8] 	| (5)INFO 	|: Input Class Initialised
+[04:15:16][0x1c2d1dc] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1c2d1dc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1c2d1d0] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1c2d1dc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1c2d1dc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:9
+[09:22:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 9 
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[04:15:16][0x1d614e0] 	| (5)INFO 	|: Input Class Initialised
+[04:15:16][0x1d614e4] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1d614e4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1d614d8] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1d614e4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1d614e4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:10
+[09:22:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 10 
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[04:15:16][0x1d67a88] 	| (5)INFO 	|: Input Class Initialised
+[04:15:16][0x1d67a8c] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1d67a8c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1d67a80] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1d67a8c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1d67a8c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:11
+[09:22:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 11 
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[04:15:16][0x1d04698] 	| (5)INFO 	|: Input Class Initialised
+[04:15:16][0x1d0469c] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1d0469c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1d04690] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1d0469c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1d0469c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:12
+[09:22:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 12 
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[04:15:16][0x1d67030] 	| (5)INFO 	|: Input Class Initialised
+[04:15:16][0x1d67034] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1d67034] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1d67028] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1d67034] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1d67034] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: set:4:dir:out
+[09:22:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 4 dir out 
+[18:29:52][0x1e6cc74] 	| (5)INFO 	|: Output to console: %s > %s
+
+[02:32:36][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 4 dir 
+[20:43:16][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[22:06:56][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[13:12:54][0x313f8] 	| (5)INFO 	|: Getting User Input: set:dir:5:out
+[09:22:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set dir 5 out 
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console: Handle for pin '%s' does not exist
+
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console: Unknown GPIO-Pin variable '%s'
+
+[22:14:04][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[09:31:00][0x313f8] 	| (5)INFO 	|: Getting User Input: set:5:dir:out
+[09:22:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 5 dir out 
+[18:29:52][0x1e6b934] 	| (5)INFO 	|: Output to console: %s > %s
+
+[02:32:36][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 5 dir 
+[20:43:16][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[22:06:56][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[13:12:54][0x313f8] 	| (5)INFO 	|: Getting User Input: set:7:dir:out
+[09:22:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 7 dir out 
+[18:29:52][0x1ca1d84] 	| (5)INFO 	|: Output to console: %s > %s
+
+[02:32:36][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 7 dir 
+[20:43:16][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[22:06:56][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[13:12:54][0x313f8] 	| (5)INFO 	|: Getting User Input: set:1:dir:out
+[09:22:12][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 1 dir out 
+[04:15:16][0x313fc] 	| (5)INFO 	|: Output to console: Handle for pin '%s' does not exist
+
+__________________________________________
+-- DEBUGLOG [Wed May 27 12:23:16 2037] --
+[10:00:00][0x31420] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[11:07:52][0x313e0] 	| (5)INFO 	|: Entered CSystem::init()
+[11:07:52][0x313e0] 	| (5)INFO 	|: Initialising System Class
+[11:07:52][0x313e0] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[20:43:36][0x19400e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[17:17:44][0x7ec781c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x19400e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[03:15:52][0x198e390] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[07:29:24][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[07:29:24][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[07:29:24][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x313f8] 	| (5)INFO 	|: Getting User Input: gpio
+[22:20:28][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: gpio
+[22:20:28][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[22:20:28][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[07:29:24][0x313fc] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[07:29:24][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[07:29:24][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[21:55:37][0x313f8] 	| (5)INFO 	|: Getting User Input: add:1
+[12:36:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 1 
+[07:29:24][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[07:29:24][0x1bcd8b0] 	| (5)INFO 	|: Input Class Initialised
+[07:29:24][0x1bcd8b4] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1bcd8b4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[01:09:16][0x1bcd8a8] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1bcd8b4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:19:36][0x1bcd8b4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: status:1
+[12:36:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: status 1 
+[07:29:24][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'] %s
+
+[18:02:00][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:54][0x313f8] 	| (5)INFO 	|: Getting User Input: set:1:dir:out
+[12:36:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: set 1 dir out 
+[21:44:00][0x1bcd8b4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:15:40][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: get 1 dir 
+[23:57:24][0x313fc] 	| (5)INFO 	|: Output to console: GPIO-Pin handle[%p,'%s'].direction: %s
+
+[12:19:12][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[19:02:49][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[12:36:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: exit 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[17:56:48][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[17:56:48][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[07:29:24][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[07:29:24][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[07:29:24][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[21:55:37][0x313f8] 	| (5)INFO 	|: Getting User Input: exit
+[12:36:20][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: exit 
+[10:00:00][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[20:42:04][0x313e0] 	| (5)INFO 	|: CSystem::run() returned 0
+[07:54:24][0x19400e0] 	| (5)INFO 	|: CPyManager finalize(): not initialised
+-- END OF DEBUG LOG [Wed May 27 12:23:16 2037] --
+__________________________________________________
+__________________________________________
+-- DEBUGLOG [Fri Apr 17 00:43:32 2037] --
+[10:00:00][0x31420] 	| (5)INFO 	|: Debug Log Level Set ALL [6]
+[05:56:24][0x313e0] 	| (5)INFO 	|: Entered CSystem::init()
+[05:56:24][0x313e0] 	| (5)INFO 	|: Initialising System Class
+[05:56:24][0x313e0] 	| (5)INFO 	|: CSystem::init() returned
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: main
+[03:39:36][0x1e770e0] 	| (5)INFO 	|: [PYTHON]Decoded Program name: .
+[12:06:16][0x7e9221c0] 	| (5)INFO 	|: Successfully opened python file: py/getGoogleImage.py
+[10:00:00][0x1e770e0] 	| (5)INFO 	|: Running python script: py/getGoogleImage.py
+[22:04:24][0x1ed7f30] 	| (3)WARN 	|: Python file failed to run (py/getGoogleImage.py): Unhandled exception (args[ ])
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_run()
+[10:00:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console:  --Main Menu-- 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:00:00][0x313f8] 	| (5)INFO 	|: Getting User Input: gpio
+[17:09:00][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: main | cmdln: gpio 
+[10:00:00][0x313e0] 	| (5)INFO 	|: Program State changed: gpio
+[17:09:00][0x313e0] 	| (5)INFO 	|: CSystem::_main() returned 0
+[17:09:00][0x313e0] 	| (5)INFO 	|: Entered CSystem::_main()
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console:  --General Purpose I/O Menu-- 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: 
+
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[13:12:55][0x313f8] 	| (5)INFO 	|: Getting User Input: add:11
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 11 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:17:56][0x2104cc8] 	| (5)INFO 	|: Input Class Initialised
+[02:17:56][0x2104ccc] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x2104ccc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[19:57:48][0x2104cc0] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x2104ccc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x2104ccc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: rem:11
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 11 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[03:24:16][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[12:23:48][0x313f8] 	| (5)INFO 	|: Getting User Input: rem:12
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 12 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Unable to remove GPIO-Pin handle (does not exist
+
+[10:00:00][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:52][0x313f8] 	| (5)INFO 	|: Getting User Input: add:1
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 1 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:17:56][0x2104cc8] 	| (5)INFO 	|: Input Class Initialised
+[02:17:56][0x2104ccc] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x2104ccc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x2104cc0] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x2104ccc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[00:39:52][0x2104ccc] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:2
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 2 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:17:56][0x1fcb0b0] 	| (5)INFO 	|: Input Class Initialised
+[02:17:56][0x1fcb0b4] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1fcb0b4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1fcb0a8] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1fcb0b4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1fcb0b4] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:3
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 3 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:17:56][0x2104e50] 	| (5)INFO 	|: Input Class Initialised
+[02:17:56][0x2104e54] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x2104e54] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x2104e48] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x2104e54] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x2104e54] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:4
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 4 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:17:56][0x1fcd648] 	| (5)INFO 	|: Input Class Initialised
+[02:17:56][0x1fcd64c] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1fcd64c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1fcd640] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1fcd64c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1fcd64c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:5
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 5 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:17:56][0x1eccd98] 	| (5)INFO 	|: Input Class Initialised
+[02:17:56][0x1eccd9c] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1eccd9c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1eccd90] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1eccd9c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1eccd9c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:6
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 6 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:17:56][0x1e90f18] 	| (5)INFO 	|: Input Class Initialised
+[02:17:56][0x1e90f1c] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1e90f1c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1e90f10] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1e90f1c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1e90f1c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:7
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 7 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:17:56][0x1eb8ce8] 	| (5)INFO 	|: Input Class Initialised
+[02:17:56][0x1eb8cec] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1eb8cec] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1eb8ce0] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1eb8cec] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1eb8cec] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:8
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 8 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:17:56][0x1f7f148] 	| (5)INFO 	|: Input Class Initialised
+[02:17:56][0x1f7f14c] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1f7f14c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1f7f140] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1f7f14c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1f7f14c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:9
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 9 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:17:56][0x1fdb530] 	| (5)INFO 	|: Input Class Initialised
+[02:17:56][0x1fdb534] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1fdb534] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1fdb528] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1fdb534] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1fdb534] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:10
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 10 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:17:56][0x1fcdb70] 	| (5)INFO 	|: Input Class Initialised
+[02:17:56][0x1fcdb74] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x1fcdb74] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x1fcdb68] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x1fcdb74] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x1fcdb74] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:11
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 11 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:17:56][0x201de50] 	| (5)INFO 	|: Input Class Initialised
+[02:17:56][0x201de54] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x201de54] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x201de48] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x201de54] 	| (5)INFO 	|: Output to console: %s > %s
+
+[08:13:24][0x201de54] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: add:12
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: add 12 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Adding GPIO-Pin handle ['%s']
+
+[02:17:56][0x200e928] 	| (5)INFO 	|: Input Class Initialised
+[02:17:56][0x200e92c] 	| (5)INFO 	|: Output class initialised
+[10:00:37][0x200e92c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[18:38:52][0x200e920] 	| (5)INFO 	|: CGPIOPin Export()succeeded
+[10:00:00][0x200e92c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[10:00:00][0x200e92c] 	| (5)INFO 	|: Output to console: %s > %s
+
+[12:16:32][0x313fc] 	| (5)INFO 	|: Output to console: Successfully retrieved GPIO-Pin handle [%p,'%s']
+
+[18:01:44][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[10:20:01][0x313f8] 	| (5)INFO 	|: Getting User Input: rem:1
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 1 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[22:59:36][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[00:48:25][0x313f8] 	| (5)INFO 	|: Getting User Input: rem:2
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 2 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[06:25:12][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[19:02:45][0x313f8] 	| (5)INFO 	|: Getting User Input: rem:3
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 3 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[03:30:48][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[03:41:04][0x313f8] 	| (5)INFO 	|: Getting User Input: rem:4
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 4 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[09:05:36][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[00:48:21][0x313f8] 	| (5)INFO 	|: Getting User Input: rem:5
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 5 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[05:12:16][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[12:23:46][0x313f8] 	| (5)INFO 	|: Getting User Input: rem:6
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 6 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[09:02:40][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:58:58][0x313f8] 	| (5)INFO 	|: Getting User Input: rem:7
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 7 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[06:24:00][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:09:56][0x313f8] 	| (5)INFO 	|: Getting User Input: rem:8
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 8 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[15:59:28][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[15:16:41][0x313f8] 	| (5)INFO 	|: Getting User Input: rem:9
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 9 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[00:56:40][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[16:59:02][0x313f8] 	| (5)INFO 	|: Getting User Input: rem:10
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 10 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[09:27:36][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[00:48:23][0x313f8] 	| (5)INFO 	|: Getting User Input: rem:11
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 11 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[04:41:12][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
+[19:02:41][0x313f8] 	| (5)INFO 	|: Getting User Input: rem:12
+[07:24:52][0x313e0] 	| (2)ERROR 	|: ProccessCMD, state: gpio | cmdln: rem 12 
+[02:17:56][0x313fc] 	| (5)INFO 	|: Output to console: Removing GPIO-Pin handle [%p,'%s']
+
+[11:15:12][0x313fc] 	| (5)INFO 	|: Output to console: 	%s >
