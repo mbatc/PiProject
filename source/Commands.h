@@ -13,6 +13,10 @@
 #define _CMD_GET	"get"
 #define _CMD_HELP	"help"
 #define _CMD_MAIN	"main"
+#define _CMD_PY		"py"
+#define _CMD_RUN	"run"
 #define _CMD_EXIT	"exit"
+#define _CMD_LIST	"list"
+#define _CMD_SCRIPT	"script"
 
 std::vector<std::string> PassCMDLine(std::string in);

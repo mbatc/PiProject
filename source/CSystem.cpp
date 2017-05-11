@@ -14,18 +14,16 @@ void CSystem::init(int argc, char** argv)
 {
 	_LOG.Log(this,DEBUGLOG_LEVEL_INFO,"Entered CSystem::init()");
 	_LOG.Log(this,DEBUGLOG_LEVEL_INFO,"Initialising System Class");
-	_LOG.Log(this,DEBUGLOG_LEVEL_INFO,"CSystem::init() returned");
+
 	change_state("main");
 	m_python = new CPyManager(argv[0]);
 	m_python->PYInit();
+
+	_LOG.Log(this,DEBUGLOG_LEVEL_INFO,"CSystem::init() returned");
 }
 
 int CSystem::run()
 {
-	m_python->AddScript("py/getGoogleImage.py");
-	m_python->RunScript("py/getGoogleImage.py");
-	m_python->RemScript("py/getGoogleImage.py");
-
 	_LOG.Log(this,DEBUGLOG_LEVEL_INFO,"Entered CSystem::_run()");
 	do
 	{
@@ -256,6 +254,37 @@ void CSystem::ProcessCMD(std::vector<std::string> cmdln)
 			change_state(_CMD_EXIT);
 		}
 	}
+	else if(!strcmp(m_states[m_iState].m_name.c_str(), "py"))
+	{
+		if(!strcmp(cmdln[0].c_str(), _CMD_EXIT))
+		{
+			change_state(_CMD_EXIT);
+		}
+		else if(!strcmp(cmdln[0].c_str(), _CMD_ADD))
+		{
+			m_io.Print("Adding python script &s to PyManager\n", cmdln[1].c_str());
+			m_python->AddScript(cmdln[1]);
+		}
+		else if(!strcmp(cmdln[0].c_str(), _CMD_REMOVE))
+		{
+			//Remove Python script
+		}
+		else if(!strcmp(cmdln[0].c_str(), _CMD_RUN))
+		{
+			//Run a previously added python script
+		}
+		else if(!strcmp(cmdln[0].c_str(), _CMD_LIST))
+		{
+			if(cmdln.size() != 2)
+			{
+				PrintHelp("py_list");
+			}
+			if(!strcmp(cmdln[1].c_str(), _CMD_SCRIPT))
+			{
+				//List scripts that have been added
+			}
+		}
+	}
 
 	if(!strcmp(cmdln[0].c_str(),_CMD_HELP))
 		PrintHelp(m_states[m_iState].m_name);
@@ -265,6 +294,7 @@ void CSystem::PrintHelp(string arg)
 {
 	bool bGpio = !strcmp(arg.c_str(), _CMD_GPIO);
 	bool bMain = !strcmp(arg.c_str(), _CMD_MAIN);
+	bool bPy = !strcmp(arg.c_str(), _CMD_PY);
 
 	//GPIO Manager help
 	if(!strcmp(arg.c_str(), "gpio_add") || bGpio)
@@ -304,5 +334,18 @@ void CSystem::PrintHelp(string arg)
 	if(!strcmp(arg.c_str(), "main_help") || bMain)
 	{
 		m_io.Print(_HELP_MAINHELP);
+	}
+
+	if(!strcmp(arg.c_str(), "py_add") || bPy)
+	{
+
+	}
+	if(!strcmp(arg.c_str(), "py_rem") || bPy)
+	{
+
+	}
+	if(!strcmp(arg.c_str(), "py_run") || bPy)
+	{
+
 	}
 }

@@ -125,3 +125,15 @@ bool CPyManager::RemScript(std::string file)
 
 	return false;
 }
+
+int CPyManager::numScripts()
+{
+	return m_pyFile.size();
+}
+
+std::string CPyManager::getName(int i)
+{
+	if(i < 0 || i >= m_pyFile.size())
+		return std::string("Invalid Index");
+	return m_pyFile[i].getName();
+}

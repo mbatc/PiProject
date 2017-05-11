@@ -45,9 +45,10 @@ private:
 	CPyManager*	m_python;
 	CIO	 	m_io;
 
-	const SPROGSTATE m_states[2] = {
+	const SPROGSTATE m_states[3] = {
         {SPROGSTATE("main"," --Main Menu-- ")},
-        {SPROGSTATE("gpio"," --General Purpose I/O Menu-- ")}};
+        {SPROGSTATE("gpio"," --General Purpose I/O Menu-- ")},
+	{SPROGSTATE("py", "-- Python Execution Menu -- ")}};
 };
 
 extern CSystem _SYS;

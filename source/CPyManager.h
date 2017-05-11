@@ -13,6 +13,9 @@ public:
 	int PYInit();
 	int PYFinalize();
 
+	int 		numScripts();
+	std::string 	getName(int i);
+
 	bool AddScript(std::string file);
 	bool RunScript(std::string file);
 	bool RemScript(std::string file);

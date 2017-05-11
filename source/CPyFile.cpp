@@ -7,7 +7,7 @@ CPyFile::CPyFile(std::string file)
 	:
 	m_py_file_name(file)
 {
-	initialize();
+	m_bValid = initialize();
 }
 
 CPyFile::~CPyFile()
@@ -20,6 +20,7 @@ string CPyFile::getName()
 
 bool CPyFile::initialize()
 {
+	m_bValid = true;
 	m_pPy_file_obj = Py_BuildValue("s",m_py_file_name.c_str());
 	m_pCpp_file = _Py_fopen_obj(m_pPy_file_obj, "r+");
 
@@ -27,13 +28,14 @@ bool CPyFile::initialize()
 	{
 		_LOG.Log(this, DEBUGLOG_LEVEL_ERROR,"Unable to open python file: %s",
 			m_py_file_name.c_str());
-		return false;
+		m_bValid = false;
+		return m_bValid;
 	}
 
 	_LOG.Log(this, DEBUGLOG_LEVEL_INFO,"Successfully opened python file: %s",
 			m_py_file_name.c_str());
 
-	return true;
+	return m_bValid;
 }
 
 int CPyFile::Run(int argc, char** argv)
@@ -60,4 +62,9 @@ int CPyFile::Run(int argc, char** argv)
 		return 1;
 	}
 	return 0;
+}
+
+bool CPyFile::valid()
+{
+	return m_bValid;
 }
